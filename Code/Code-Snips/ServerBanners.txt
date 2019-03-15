@@ -1,0 +1,17 @@
+Server banners 
+
+If you want to use your popout:
+.banner-1TiK82[style*="/banners/"] {
+  background-image: linear-gradient(var(--S-Colour) 50%, var(--Background-Colour) 100%), var(--Callout-Background)!important;
+}
+
+If you want to palce your pic:
+
+.banner-1TiK82[style*="/banners/"] {
+  background-image: linear-gradient(url)!important;
+}
+
+#2
+.banner-1TiK82{
+  background:none!important;
+}

@@ -1,0 +1,6 @@
+Change code box colors 
+
+
+.theme-dark .scrollbar-3dvm_9 {
+ background-color: rgba(252, 9, 9, 0.171) !important;
+}

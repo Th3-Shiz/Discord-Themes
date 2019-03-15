@@ -1,0 +1,8 @@
+To-Get Ride of Nitro or Gif sections on the message bar
+
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
+  display: none !important;
+}

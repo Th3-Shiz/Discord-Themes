@@ -1,0 +1,10 @@
+To Change DISOCORD In top left
+
+
+.wordmark-2iDDfm::after {content: "Text Asd123";position: absolute;left: 10px;width: 150px;color: #fff;font-size: 14px}
+
+
+For Image
+
+.wordmark-2iDDfm svg path{display: none}
+.wordmark-2iDDfm {background: url(https://rawgit.com/satoru8/Icons/master/camera.svg) no-repeat}

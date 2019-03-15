@@ -1,0 +1,68 @@
+//META{"name":"Cat_Eyes","description":" Cat_Eyes theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/Yes.css);
+/* Minimal Mode */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+/* Guild List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/Yes.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+ 
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
+
+:root {
+  --Main-Colour: rgba(182,35,178,1);
+  --Background-Colour: rgba(3,10,14,1);
+  --S-Colour: rgba(182, 21, 245, 0.137);
+  --M-Colour: rgba(182,35,178,.5);
+  --Text-Shadow-Colour: rgba(0,0,0,.65);
+  --Scroller-Colour: rgba(182,35,178,0);
+  --Notification-Colour: rgba(182,35,178,1);
+  --Chat-Input-Background: rgba(179, 24, 240, 0.164);
+  --Chat-Input-Colour: var(--Main-Colour) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: url(https://i.imgur.com/Dgv6rJi.jpg?1);
+  --Settings-Background: url(https://i.imgur.com/ui5mchS.jpg);
+  --Callout-Background: url(https://i.imgur.com/ui5mchS.jpg);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: " Cat Eyes";
+  --Chat-Font-Used: 'Bubblegum Sans', cursive;;
+  --Chat-Font-Size: 18px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: url(https://i.imgur.com/e5Evb4b.jpg);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background:url(https://i.imgur.com/SCTn2wS.jpg);
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: var(--M-Colour);
+  --Guild-Rows: 2;
+  --Chat-Avatar-Border-Radius: 40%;
+  --Background-Brightness: 0.2;
+}
+
+ 
+.theme-dark .scrollbar-3dvm_9 {
+  background-color: rgba(211, 9, 252, 0.171) !important;
+ }
+ 
+ 

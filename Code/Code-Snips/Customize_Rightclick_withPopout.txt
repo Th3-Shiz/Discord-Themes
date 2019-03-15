@@ -1,0 +1,20 @@
+If you want to custamize the right click profile areas here is css
+
+
+.theme-dark .item-1Yvehc {
+  background: rgb(0, 55, 255) !important;
+  background-color: rgb(103, 0, 158) !important;
+  color: pink!important;
+}
+
+.theme-dark .item-1Yvehc:hover {
+  background: rgb(85, 255, 0) !important;
+  background-color: rgb(0, 155, 158) !important;
+  color: rgb(212, 0, 60)!important;
+}
+
+div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
+  background: rgb(184, 212, 0) !important;
+  background-color: rgb(255, 0, 0) !important;
+  border: 2px solid rgb(255, 132, 0) !important;
+}

@@ -1,0 +1,11 @@
+Hide blocked messages
+
+
+
+.da-messageGroupBlocked {display: none;}
+
+
+
+or if you don't have normalized classes for whatever reason
+.messageGroupBlocked-3wrQQX ,
+.messageGroupBlockedBtn-1PBBh- {display:none}

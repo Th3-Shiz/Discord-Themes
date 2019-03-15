@@ -1,0 +1,3 @@
+fix server list being back to normal with black bg.
+
+.theme-dark .da-flex > .da-wrapper { background: rgba(0,0,0,0.45);}

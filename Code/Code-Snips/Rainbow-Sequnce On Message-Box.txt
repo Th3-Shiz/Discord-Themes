@@ -1,0 +1,4 @@
+Rainbow effect on and in message box Per-NFLD99
+
+ /* Rainbow Message Box*/
+  .theme-dark .inner-zqa7da:focus-within {animation: CLog 2s infinite linear }

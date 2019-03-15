@@ -1,0 +1,93 @@
+//META{"name":"Carbon-Fiber-(Blue)","description":" Carbon Fiber {blue} Clean theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
+
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/Yes.css);
+/* Minimal Mode */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+/* Guild List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/Yes.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+ 
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
+
+:root {
+  --Main-Colour: rgb(98, 119, 241);
+  --Background-Colour: rgba(10, 9, 10, 0.815);
+  --S-Colour: rgba(12, 9, 12, 0.384);
+  --M-Colour: rgba(230, 231, 238, 0.651);
+  --Text-Shadow-Colour: rgba(10, 10, 10, 0.233);
+  --Scroller-Colour: rgba(25, 29, 241, 0);
+  --Notification-Colour: rgb(12, 35, 240);
+  --Chat-Input-Background: rgba(23, 44, 235, 0.199);
+  --Chat-Input-Colour:rgb(106, 157, 235) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: url(https://i.imgur.com/ffhuO5P.jpg);
+  --Settings-Background: url(https://i.imgur.com/yttXUKl.jpg);
+  --Callout-Background: var(--Chat-Background);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: " Carbon Fiber {Blue)";
+  --Chat-Font-Used: 'Coda', cursive;
+  --Chat-Font-Size: 17px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background:  url(https://i.imgur.com/yttXUKl.jpg);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background:url(https://i.imgur.com/yttXUKl.jpg);
+  --Settings-Dock-Colour:rgb(9, 63, 209);
+  --Timestamp-Colour: var(--M-Colour);
+  --Guild-Rows: 2;
+  --Chat-Avatar-Border-Radius: 40%;
+  --Background-Brightness: 0.22;
+}
+.scroller-2FKFPG {border-right: solid rgba(28, 69, 250, 0.158)
+}
+.theme-dark .scrollbar-3dvm_9 {
+  background-color: rgba(9, 25, 252, 0.171) !important;
+}
+.theme-dark .nameTag-m8r81H, .name-1ug6d4{
+  color: rgb(4, 29, 247) !important;
+}
+
+.theme-dark .item-1Yvehc {
+  background: rgb(16, 73, 230) !important;
+  background-color: rgb(17, 16, 17) !important;
+  color: rgb(161, 189, 240)!important;
+}
+
+.theme-dark .item-1Yvehc:hover {
+  background: rgb(15, 15, 15) !important;
+  background-color: rgb(24, 23, 23) !important;
+  color: rgb(38, 15, 241)!important;
+}
+
+div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
+  background: rgb(15, 15, 11) !important;
+  background-color: rgba(71, 96, 236, 0) !important;
+  border: 2px solid rgb(8, 8, 8) !important;
+  
+  .theme-dark .nameTag-m8r81H, .name-1ug6d4{
+    color: rgba(248,252,252)!important;
+}
+
+

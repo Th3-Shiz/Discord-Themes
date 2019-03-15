@@ -1,0 +1,76 @@
+//META{"name":"Diablo3","description":" Diablo3-ROS theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
+
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/No.css);
+/* Minimal Mode */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+/* Guild List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/No.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/No.css);
+ 
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
+
+:root {
+    --Main-Colour: rgb(83, 250, 61);
+    --Background-Colour: rgba(0,0,0,1);
+    --S-Colour: rgba(0,0,0,.3);
+    --M-Colour: rgb(83, 250, 61);
+    --Text-Shadow-Colour: rgba(0,0,0,.65);
+    --Scroller-Colour: rgb(83, 250, 61);
+    --Notification-Colour: rgb(83, 250, 61);
+    --Chat-Input-Background: rgba(0,0,0,0);
+    --Chat-Input-Colour: var(--Main-Colour) ;
+    --Unread-Message-1: var(--Main-Colour) ;
+    --Unread-Message-2: var(--Background-Colour) ;
+    --Chat-Background: url(https://i.imgur.com/JVh41Ab.jpg);
+    --Settings-Background: url(https://i.imgur.com/xlxXmBE.jpg);
+    --Callout-Background: url(https://i.imgur.com/JVg1z97.jpg);
+    --Title-Background: var(--Background-Colour);
+    --Theme-Variant: " Diablo3-ROS";
+    --Chat-Font-Used: ;
+    --Chat-Font-Size: 18px;
+    --Unread-Message-Speed: 1.5s;
+    --Popout-Main-Colour: var(--Main-Colour);
+    --Popout-Background: url(https://i.imgur.com/FPiTPLo.jpg);
+    --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+    --Emote-Popout-Background: url(https://i.imgur.com/OMuoAPV.jpg);
+    --Settings-Dock-Colour: var(--Main-Colour);
+    --Timestamp-Colour: var(--M-Colour);
+    --Guild-Rows: 2;
+    --Chat-Avatar-Border-Radius: 40%;
+    --Background-Brightness: 0.6;
+  }
+  /* Embeds Discord Default Behavior */
+.theme-dark .embedInner-1-fpTo {
+  background-color: rgba(46,48,54,.3);
+  border-color: rgba(46,48,54,.6);
+}
+
+.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl {
+  color: hsla(0,0%,100%,.6);
+}
+/* END */
+
+  /* Memberlist background */
+.theme-dark .members-1998pB{
+  background:url(https://i.imgur.com/MIBm1Re.jpg) 50% 50%/cover;
+  }
+  /* END */
