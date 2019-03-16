@@ -7,4 +7,4 @@ To Change DISOCORD In top left
 For Image
 
 .wordmark-2iDDfm svg path{display: none}
-.wordmark-2iDDfm {background: url(https://rawgit.com/satoru8/Icons/master/camera.svg) no-repeat}
+.wordmark-2iDDfm {background: url([Image]) no-repeat}
