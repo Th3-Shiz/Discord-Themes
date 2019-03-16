@@ -12,9 +12,14 @@ Cars:
 2)Mustang_Shelby
 -------------------------------------------------------------------------------------
 Clean:
-Carbon-Fiber
-2)Carbon-Fiber-Green
-3)Carbon-Fiber-Blue
+1)Carbon Fiber Black
+2)Carbon Fiber Green
+3)Carbon Fiber Blue
+4)Carbon Fiber Yellow
+5)Carbon Fiber Purple
+6)Carbon Fiber Pink
+7)Carbon Fiber Orange
+
 -------------------------------------------------------------------------------------
 Games:
 1)Apex-Legends
