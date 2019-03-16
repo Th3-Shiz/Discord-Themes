@@ -12,6 +12,7 @@ Cars:
 2)Mustang_Shelby
 3)Lambo Tron Edition
 4)Porshe 911 Spyder
+5)Skyline
 -------------------------------------------------------------------------------------
 Clean:
 1)Carbon Fiber Black
