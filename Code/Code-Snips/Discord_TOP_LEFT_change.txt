@@ -1,10 +1,11 @@
 To Change DISOCORD In top left
 
-
-.wordmark-2iDDfm::after {content: "Text Asd123";position: absolute;left: 10px;width: 150px;color: #fff;font-size: 14px}
-
-
-For Image
-
-.wordmark-2iDDfm svg path{display: none}
-.wordmark-2iDDfm {background: url([Image]) no-repeat}
+.wordmark-2iDDfm::after{
+     content: var(--wordmark)!important ;
+     white-space: nowrap;
+     font-size: 16px;
+     color: var(--textcolor1);
+}
+ .wordmark-2iDDfm svg {
+    display: none;
+}
