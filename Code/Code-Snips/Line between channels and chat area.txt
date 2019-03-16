@@ -1,0 +1,4 @@
+Single line between channels and chat area
+
+.scroller-2FKFPG {border-right: solid rgba(102, 102, 102, 0.158)
+}
