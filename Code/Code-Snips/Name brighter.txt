@@ -1,0 +1,5 @@
+To Make Name in bottom left color and or brighter
+
+.theme-dark .nameTag-m8r81H, .name-1ug6d4{
+    color: rgba(248,252,252) !important;
+  }
