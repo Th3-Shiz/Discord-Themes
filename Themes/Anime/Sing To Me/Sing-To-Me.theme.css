@@ -1,0 +1,86 @@
+//META{"name":"Sing-To-Me","description":" Anime-girls-theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
+
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/Yes.css);
+/* Minimal Mode */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+/* Guild List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/Yes.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+ 
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
+
+:root {
+    --Main-Colour: rgb(162, 225, 250);
+    --Background-Colour: rgba(0,0,0,1);
+    --S-Colour: rgba(0,0,0,.3);
+    --M-Colour: rgb(3, 101, 139);
+    --Text-Shadow-Colour: rgba(16, 233, 241, 0);
+    --Scroller-Colour: rgba(44, 185, 241, 0);
+    --Notification-Colour: rgb(55, 222, 252);
+    --Chat-Input-Background: rgba(0, 0, 0, 0.555);
+    --Chat-Input-Colour: var(--Main-Colour) ;
+    --Unread-Message-1: var(--Main-Colour) ;
+    --Unread-Message-2: var(--Background-Colour) ;
+    --Chat-Background: url(https://i.imgur.com/GL4WryL.jpg);
+    --Settings-Background: url(https://i.imgur.com/FHWpv3U.jpg?1);
+    --Callout-Background: url(https://i.imgur.com/qRGEZ1G.jpg);
+    --Title-Background: var(--Background-Colour);
+    --Theme-Variant: "Sing to Me";
+    --Chat-Font-Used: 'Audiowide', cursive;
+    --Chat-Font-Size: 15px;
+    --Unread-Message-Speed: 1.5s;
+    --Popout-Main-Colour: var(--Main-Colour);
+    --Popout-Background: url(https://i.imgur.com/qRGEZ1G.jpg);
+    --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+    --Emote-Popout-Background: url(https://i.imgur.com/FHWpv3U.jpg?1);
+    --Settings-Dock-Colour: rgb(240, 246, 248);
+    --Timestamp-Colour: var(--M-Colour);
+    --Guild-Rows: 1;
+    --Chat-Avatar-Border-Radius: 45%;
+    --Background-Brightness: 0.1;
+  }
+  .scroller-2FKFPG {border-right: solid rgba(102, 102, 102, 0.123)
+  }
+  .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+    display: none !important;
+  }
+  .buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
+    display: none !important;
+  }
+  .container-0,.container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11,.container-12,.container-13,.container-14,.container-15,.container-16,.container-17,.container-18,.container-19,.container-20 {
+    border: 1px var(--M-Colour) solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 200ms;
+  }
+  .container-0:hover,.container-1:hover,.container-2:hover,.container-3:hover,.container-4:hover,.container-5:hover,.container-6:hover,.container-7:hover,.container-8:hover,.container-9:hover,.container-10:hover,.container-11:hover,.container-12:hover,.container-13:hover,.container-14:hover,.container-15:hover,.container-16:hover,.container-17:hover,.container-18:hover,.container-19:hover,.container-20:hover {
+    border: 1px var(--Main-Colour) solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: all 200ms;
+  }
+  .theme-dark .nameTag-m8r81H, .name-1ug6d4{
+    color: rgb(23, 231, 231) !important;
+  }
+  .theme-dark .scrollbar-3dvm_9 {
+    background-color: rgba(9, 224, 252, 0.171) !important;
+   }
