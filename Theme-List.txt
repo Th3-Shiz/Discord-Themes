@@ -42,3 +42,11 @@ Misc:
 Movies:
 1)DeadPool
 2)Harry-Potter
+-------------------------------------------------------------------------------------
+OS 
+1)Windows Glossy Black
+2)Linux
+3)Linux Mint
+4)Ubuntu
+
+
