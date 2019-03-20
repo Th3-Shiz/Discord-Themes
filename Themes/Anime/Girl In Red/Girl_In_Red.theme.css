@@ -33,7 +33,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
 
 :root {
-  --Main-Colour: rgba(255,0,0,1);
+  --Main-Colour: rgba(255, 0, 0, 0.76);
   --Background-Colour: rgba(0, 0, 0, 0.856);
   --S-Colour: rgba(0, 0, 0, 0.185);
   --M-Colour: rgba(255,0,0,.5);
