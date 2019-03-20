@@ -48,6 +48,7 @@ Movies:
 Movies:
 1)DeadPool
 2)Harry Potter
+3)Fantastic Beast 1
 -------------------------------------------------------------------------------------
 OS 
 1)Windows Glossy Black
