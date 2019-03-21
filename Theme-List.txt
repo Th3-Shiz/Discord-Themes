@@ -41,14 +41,12 @@ Misc:
 1)Alone-In-The-Dark
 2)Cat_Eyes
 3)The_Devil_In_Us
-Movies:
-1)DeadPool
-2)Harry-Potter
 -------------------------------------------------------------------------------------
 Movies:
 1)DeadPool
 2)Harry Potter
 3)Fantastic Beast 1
+4)Fantastic Beast 2
 -------------------------------------------------------------------------------------
 OS 
 1)Windows Glossy Black
