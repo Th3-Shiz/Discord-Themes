@@ -2,3 +2,4 @@ Here will be updates to code as come's
 
 
 1):Code has been updated for the BetterDocs Blocker 
+2) Borders for around channels added...
