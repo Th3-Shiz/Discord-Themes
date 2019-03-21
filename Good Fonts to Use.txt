@@ -6,3 +6,4 @@ Good fonts to use
 4)'Amarante', cursive
 5)'Arima Madurai', cursive
 6)'Audiowide', cursive
+7)'Walter Turncoat', cursive
