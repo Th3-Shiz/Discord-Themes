@@ -1,0 +1,4 @@
+Home Icon change and center
+
+#app-mount .homeIcon-tEMBK1 g {display:none}
+#app-mount svg.homeIcon-tEMBK1 {background: url(' https://www.upload.ee/image/9731375/sadsd.gif') no-repeat center/cover}
