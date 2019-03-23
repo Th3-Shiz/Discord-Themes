@@ -7,3 +7,5 @@ Good fonts to use
 5)'Arima Madurai', cursive
 6)'Audiowide', cursive
 7)'Walter Turncoat', cursive
+8)  'Lobster', cursive;
+9) 'Lobster Two', cursive;
