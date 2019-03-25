@@ -9,3 +9,7 @@ Good fonts to use
 7)'Walter Turncoat', cursive
 8)  'Lobster', cursive;
 9) 'Lobster Two', cursive;
+10)'Schoolbell', cursive
+11)'Short Stack', cursive
+12)'Amarante', cursive
+13)'Chewy', cursive

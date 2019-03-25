@@ -1,0 +1,11 @@
+Animation to user pop out in user section, credit to Mixer for code
+
+.noArrow-3BYQ0Z.noShadow-321ZPm.popout-3sVMXz.popoutLeft-30WmrD.arrowAlignmentTop-iGQczz.popoutleft.theme-undefined{
+    left:unset!important;
+    right:0!important;
+    top:72px !important;
+    transform:translateX(0)!important;
+    margin:0;
+}
+.userPopout-3XzG_A{width:240px;height:calc(100vh - 72px);}
+.footer-1fjuF6{height:100%}
