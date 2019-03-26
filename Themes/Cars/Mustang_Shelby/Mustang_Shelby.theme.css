@@ -47,7 +47,7 @@
     --Callout-Background: url(https://i.imgur.com/mRRHtJv.jpg);
     --Title-Background: var(--Background-Colour);
     --Theme-Variant: "Mustang Shelby";
-    --Chat-Font-Used: ;
+    --Chat-Font-Used: 'Amarante', cursive;
     --Chat-Font-Size: 15px;
     --Unread-Message-Speed: 1.5s;
     --Popout-Main-Colour: var(--Main-Colour);
@@ -62,5 +62,28 @@
   }
   /* Rainbow Message Box*/
   .theme-dark .inner-zqa7da:focus-within {animation: CLog 2s infinite linear }
+  /* Borders around channels*/
+  .container-0,.container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11,.container-12,.container-13,.container-14,.container-15,.container-16,.container-17,.container-18,.container-19,.container-20 {
+    border: 1px var(--M-Colour) solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 200ms;
+  }
+  .container-0:hover,.container-1:hover,.container-2:hover,.container-3:hover,.container-4:hover,.container-5:hover,.container-6:hover,.container-7:hover,.container-8:hover,.container-9:hover,.container-10:hover,.container-11:hover,.container-12:hover,.container-13:hover,.container-14:hover,.container-15:hover,.container-16:hover,.container-17:hover,.container-18:hover,.container-19:hover,.container-20:hover {
+    border: 1px var(--Main-Colour) solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: all 200ms;
+  }
+  .noArrow-3BYQ0Z.noShadow-321ZPm.popout-3sVMXz.popoutLeft-30WmrD.arrowAlignmentTop-iGQczz.popoutleft.theme-undefined{
+    left:unset!important;
+    right:0!important;
+    top:72px !important;
+    transform:translateX(0)!important;
+    margin:0;
+}
+.userPopout-3XzG_A{width:240px;height:calc(100vh - 72px);}
+.footer-1fjuF6{height:100%}
+}
 
 
