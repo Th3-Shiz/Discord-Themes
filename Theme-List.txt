@@ -38,6 +38,7 @@ Games:
 7)Dungoeon&Dragons
 8)Rift
 9)World_Of_Warcraft-BFA
+10)Zelda
 -------------------------------------------------------------------------------------
 Misc:
 1)Alone-In-The-Dark
