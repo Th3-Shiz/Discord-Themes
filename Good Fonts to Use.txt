@@ -14,3 +14,6 @@ Good fonts to use
 12)'Amarante', cursive
 13)'Chewy', cursive
 14) 'Palanquin Dark', sans-serif
+15)'Doppio One', sans-serif
+16)'Cambay', sans-serif
+
