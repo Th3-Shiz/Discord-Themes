@@ -3,3 +3,5 @@ Here will be updates to code as come's
 
 1):Code has been updated for the BetterDocs Blocker 
 2) Borders for around channels added...
+3)BetterDocs import removed is now hard coded into core..
+4)

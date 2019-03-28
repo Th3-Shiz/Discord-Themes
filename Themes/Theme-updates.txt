@@ -4,4 +4,5 @@ Added:
 
 All Themes 7zip To download all themes
 
-The BetterDoc Blocker added to all themes Added
+3-20-19:The BetterDoc Blocker added to all themes Added
+3-22-19:The BetterDoc Blocker been removed now Hard coded into core.
