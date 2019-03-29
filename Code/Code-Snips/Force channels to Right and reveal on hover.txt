@@ -1,0 +1,10 @@
+/* Force channels to right and reveal on hover */
+.channels-Ie2l6A {
+    order: 2;
+    width: 3px;
+    transition: width .45s;
+}
+
+.channels-Ie2l6A:hover {
+    width: 240px;
+}
