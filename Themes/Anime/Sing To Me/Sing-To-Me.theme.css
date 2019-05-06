@@ -31,8 +31,8 @@
 :root {
     --Main-Colour: rgb(4, 79, 129);
     --Background-Colour: rgba(0,0,0,1);
-    --S-Colour: rgba(0, 0, 0, 0.705);
-    --M-Colour: rgb(3, 101, 139);
+    --Secondary-Background-Colour: rgba(0, 0, 0, 0.705);
+    --Secondary-Main-Colour: rgb(3, 101, 139);
     --Text-Shadow-Colour: rgba(16, 196, 241, 0);
     --Scroller-Colour: rgba(44, 185, 241, 0);
     --Notification-Colour: rgb(55, 222, 252);
@@ -53,10 +53,11 @@
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background: url(https://i.imgur.com/FHWpv3U.jpg?1);
     --Settings-Dock-Colour: rgb(240, 246, 248);
-    --Timestamp-Colour: var(--M-Colour);
-    --Guild-Rows: 1;
+    --Timestamp-Colour: var(--Secondary-Main-Colour);
+    --Guild-Columns: 1;
+    --ServerFolders-Guild-Columns: var(--Guild-Columns);
     --Chat-Avatar-Border-Radius: 45%;
-    --Background-Brightness: 0.1;
+    --Background-Darkness: 0.1;
   }
   .scroller-2FKFPG {border-right: solid rgba(8, 178, 245, 0.089)
   }
@@ -67,7 +68,7 @@
     display: none !important;
   }
   .container-0,.container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11,.container-12,.container-13,.container-14,.container-15,.container-16,.container-17,.container-18,.container-19,.container-20 {
-    border: 1px var(--M-Colour) solid;
+    border: 1px var(--Secondary-Main-Colour) solid;
     border-radius: 5px;
     margin-bottom: 5px;
     transition: all 200ms;

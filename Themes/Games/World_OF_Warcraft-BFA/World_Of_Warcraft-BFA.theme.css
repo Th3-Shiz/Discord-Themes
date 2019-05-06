@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgb(248, 47, 11);
   --Background-Colour: rgba(7,0,5,1);
-  --S-Colour: rgba(7,0,5,.3);
-  --M-Colour: rgb(8, 32, 250);
+  --Secondary-Background-Colour: rgba(7,0,5,.3);
+  --Secondary-Main-Colour: rgb(8, 32, 250);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
   --Scroller-Colour: rgba(250, 54, 54, 0);
   --Notification-Colour: rgb(57, 54, 250);
@@ -56,9 +56,10 @@
   --Emote-Popout-Background: url(https://i.imgur.com/55JBEhg.jpg);
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: rgb(248, 47, 11);
-  --Guild-Rows: 2;
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%;
-  --Background-Brightness: 0.40;
+  --Background-Darkness: 0.40;
 }
 
 /* disabling divider */

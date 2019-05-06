@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgb(243, 23, 23);
   --Background-Colour: rgb(17, 2, 2);
-  --S-Colour: rgba(0, 0, 0, 0.301);
-  --M-Colour: rgba(255,0,0,.5);
+  --Secondary-Background-Colour: rgba(0, 0, 0, 0.301);
+  --Secondary-Main-Colour: rgba(255,0,0,.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
   --Scroller-Colour: rgba(255,0,0,0);
   --Notification-Colour: rgba(255,0,0,1);
@@ -56,9 +56,10 @@
   --Emote-Popout-Background: url(https://i.imgur.com/QNAZxix.jpg);
   --Settings-Dock-Colour: rgb(250, 14, 14);
   --Timestamp-Colour: rgb(6, 248, 216);
-  --Guild-Rows: 2;
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 35%;
-  --Background-Brightness: 0.2;
+  --Background-Darkness: 0.2;
 }
 
 .theme-dark .item-1Yvehc {

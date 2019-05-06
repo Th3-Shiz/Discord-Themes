@@ -31,8 +31,8 @@
 :root {
     --Main-Colour: rgb(250, 27, 11);
     --Background-Colour: rgba(0,0,0,1);
-    --S-Colour: rgba(0,0,0,.3);
-    --M-Colour: rgb(250, 27, 11);
+    --Secondary-Background-Colour: rgba(0,0,0,.3);
+    --Secondary-Main-Colour: rgb(250, 27, 11);
     --Text-Shadow-Colour: rgba(0, 0, 0, 0.65);
     --Scroller-Colour: rgb(250, 27, 11);
     --Notification-Colour: rgb(250, 27, 11);
@@ -53,10 +53,11 @@
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background: url(https://i.imgur.com/Wa6E6Li.png);
     --Settings-Dock-Colour: var(--Main-Colour);
-    --Timestamp-Colour: var(--M-Colour);
-    --Guild-Rows: 2;
+    --Timestamp-Colour: var(--Secondary-Main-Colour);
+    --Guild-Columns: 2;
+    --ServerFolders-Guild-Columns: var(--Guild-Columns);
     --Chat-Avatar-Border-Radius: 40%;
-    --Background-Brightness: 0.6;
+    --Background-Darkness: 0.6;
   }
   /* Embeds Discord Default Behavior */
 .theme-dark .embedInner-1-fpTo {

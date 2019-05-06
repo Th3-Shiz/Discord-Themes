@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgb(145, 139, 142);
   --Background-Colour: rgba(10, 9, 10, 0.815);
-  --S-Colour: rgba(12, 9, 12, 0.384);
-  --M-Colour: rgba(228, 214, 214, 0.651);
+  --Secondary-Background-Colour: rgba(12, 9, 12, 0.384);
+  --Secondary-Main-Colour: rgba(228, 214, 214, 0.651);
   --Text-Shadow-Colour: rgba(10, 10, 10, 0.233);
   --Scroller-Colour: rgba(146, 139, 142, 0);
   --Notification-Colour: rgba(146,139,142,1);
@@ -55,10 +55,11 @@
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background:url(https://i.imgur.com/ht4xXCR.png);
   --Settings-Dock-Colour:rgb(248, 252, 252);
-  --Timestamp-Colour: var(--M-Colour);
-  --Guild-Rows: 2;
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%;
-  --Background-Brightness: 0.22;
+  --Background-Darkness: 0.22;
 }
 .scroller-2FKFPG {border-right: solid rgba(102, 102, 102, 0.158)
 }

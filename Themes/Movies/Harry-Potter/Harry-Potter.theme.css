@@ -31,8 +31,8 @@
 :root {
     --Main-Colour: rgb(34, 236, 250);
     --Background-Colour: rgba(0,0,0,1);
-    --S-Colour: rgba(0,0,0,.3);
-    --M-Colour: rgba(34, 236, 250);
+    --Secondary-Background-Colour: rgba(0,0,0,.3);
+    --Secondary-Main-Colour: rgba(34, 236, 250);
     --Text-Shadow-Colour: rgba(0,0,0,.65);
     --Scroller-Colour: rgba(75, 245, 32, 0);
     --Notification-Colour: rgb(252, 56, 242);
@@ -54,9 +54,10 @@
     --Emote-Popout-Background: url(https://i.imgur.com/7eEx7CY.jpg);
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: rgb(248, 123, 129);
-    --Guild-Rows: 1;
+    --Guild-Columns: 1;
+    --ServerFolders-Guild-Columns: var(--Guild-Columns);
     --Chat-Avatar-Border-Radius: 40%;
-    --Background-Brightness: 0.5;
+    --Background-Darkness: 0.5;
   }
 
    /* Rainbow Message Box*/

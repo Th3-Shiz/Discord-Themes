@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgba(0,172,234,1);
   --Background-Colour: rgba(0,0,0,1);
-  --S-Colour: rgba(86, 170, 248, 0);
-  --M-Colour: rgb(0, 172, 234);
+  --Secondary-Background-Colour: rgba(86, 170, 248, 0);
+  --Secondary-Main-Colour: rgb(0, 172, 234);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
   --Scroller-Colour: rgba(0,172,234,0);
   --Notification-Colour: rgba(0,172,234,1);
@@ -55,10 +55,11 @@
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background:  url(https://i.imgur.com/l4B44NA.png);
   --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: var(--M-Colour);
-  --Guild-Rows: 2;
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%;
-  --Background-Brightness: 0.1;
+  --Background-Darkness: 0.1;
 }
 .theme-dark .scrollbar-3dvm_9 {
   background-color: rgba(9, 163, 252, 0.24) !important;

@@ -31,8 +31,8 @@
 :root {
     --Main-Colour: rgb(253, 70, 14);
     --Background-Colour: rgba(0,0,0,1);
-    --S-Colour: rgba(0,0,0,.3);
-    --M-Colour: rgba(253, 70, 14);
+    --Secondary-Background-Colour: rgba(0,0,0,.3);
+    --Secondary-Main-Colour: rgba(253, 70, 14);
     --Text-Shadow-Colour: rgba(0,0,0,.65);
     --Scroller-Colour: rgba(75, 245, 32, 0);
     --Notification-Colour: rgb(250, 25, 25);
@@ -54,9 +54,10 @@
     --Emote-Popout-Background: url(https://i.imgur.com/D5z91D3.jpg);
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: rgb(253, 31, 42);
-    --Guild-Rows: 1;
+    --Guild-Columns: 1;
+    --ServerFolders-Guild-Columns: var(--Guild-Columns);
     --Chat-Avatar-Border-Radius: 40%;
-    --Background-Brightness: 0.5;
+    --Background-Darkness: 0.5;
   }
 
   .theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl {

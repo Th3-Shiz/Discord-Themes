@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgba(252,221,37,1);
   --Background-Colour: rgba(1,0,40,1);
-  --S-Colour: rgba(1,0,40,.3);
-  --M-Colour: rgba(252,221,37,.5);
+  --Secondary-Background-Colour: rgba(1,0,40,.3);
+  --Secondary-Main-Colour: rgba(252,221,37,.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
   --Scroller-Colour: rgba(252,221,37,0);
   --Notification-Colour: rgba(252,221,37,1);
@@ -56,9 +56,10 @@
   --Emote-Popout-Background: url(https://i.imgur.com/VMDe409.jpg);
   --Settings-Dock-Colour: rgba(252,221,37,1);
   --Timestamp-Colour: rgba(252,221,37,1);
-  --Guild-Rows: 2;
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%;
-  --Background-Brightness: 0.4;
+  --Background-Darkness: 0.4;
 }
 /* disabling divider */
 .theme-dark .dividerEnabled-2TTlcf {

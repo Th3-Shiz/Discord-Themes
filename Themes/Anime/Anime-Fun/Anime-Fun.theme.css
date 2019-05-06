@@ -16,8 +16,8 @@
 :root { 
   --Main-Colour: rgba(102, 255, 102,1); 
   --Background-Colour: rgba(102, 102, 255,1); 
-  --S-Colour: rgba(102, 102, 255,.3); 
-  --M-Colour: rgba(102, 255, 102,.5); 
+  --Secondary-Background-Colour: rgba(102, 102, 255,.3); 
+  --Secondary-Main-Colour: rgba(102, 255, 102,.5); 
   --Text-Shadow-Colour: rgba(102, 102, 255,.45); 
   --Scroller-Colour: rgba(102, 255, 102,.5); 
   --Notification-Colour: rgba(102, 255, 102,1); 
@@ -39,7 +39,8 @@
   --Emote-Popout-Background: url(https://i.imgur.com/iKywsWD.jpg);  
   --Settings-Dock-Colour: rgba(102, 255, 102,1); 
   --Timestamp-Colour: rgba(102, 255, 102,.5); 
-  --Background-Brightness: .5; 
-  --Guild-Rows: 2; 
+  --Background-Darkness: .5; 
+  --Guild-Columns: 2; 
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%; 
 } 

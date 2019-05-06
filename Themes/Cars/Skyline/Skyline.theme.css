@@ -31,8 +31,8 @@
 :root {
     --Main-Colour: rgb(245, 160, 80);
     --Background-Colour: rgb(0, 0, 0);
-    --S-Colour: rgba(0,0,0,.3);
-    --M-Colour: rgb(245,160,80);
+    --Secondary-Background-Colour: rgba(0,0,0,.3);
+    --Secondary-Main-Colour: rgb(245,160,80);
     --Text-Shadow-Colour: rgba(245, 160, 80, 0);
     --Scroller-Colour: rgba(243, 195, 63, 0);
     --Notification-Colour: rgb(245,160,80);
@@ -53,10 +53,11 @@
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background:url(https://i.imgur.com/aHV1odt.jpg);
     --Settings-Dock-Colour: var(--Main-Colour);
-    --Timestamp-Colour: var(--M-Colour);
-    --Guild-Rows: 1;
+    --Timestamp-Colour: var(--Secondary-Main-Colour);
+    --Guild-Columns: 1;
+    --ServerFolders-Guild-Columns: var(--Guild-Columns);
     --Chat-Avatar-Border-Radius: 40%;
-    --Background-Brightness: 0.3;
+    --Background-Darkness: 0.3;
   }
   /* Rainbow Message Box*/
   .theme-dark .inner-zqa7da:focus-within {animation: CLog 2s infinite linear }
