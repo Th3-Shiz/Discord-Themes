@@ -6,8 +6,6 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
-/* Minimal Mode */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Minimal/No.css);
 /* Channels */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
 /* Chat Title Bar */
@@ -52,7 +50,7 @@
     --Popout-Background: url(https://i.imgur.com/8Gilf7X.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background:url(https://i.imgur.com/eVJYwqs.jpg);
-    --File-Updated-2019-5-9: ;
+    --File-Updated-2019-5-10: ;
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: var(--Secondary-Main-Colour);
     --Guild-Columns: 1;
