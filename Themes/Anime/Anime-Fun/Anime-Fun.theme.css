@@ -1,23 +1,22 @@
 //META{"name":"Anime_Fun","description":" Anime_Fun theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/Yes.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/Yes.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Popup/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/Yes.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/No.css); 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/No.css); 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css); 
 :root { 
   --Main-Colour: rgba(102, 255, 102,1); 
   --Background-Colour: rgba(102, 102, 255,1); 
-  --S-Colour: rgba(102, 102, 255,.3); 
-  --M-Colour: rgba(102, 255, 102,.5); 
+  --Secondary-Background-Colour: rgba(102, 102, 255,.3); 
+  --Secondary-Main-Colour: rgba(102, 255, 102,.5); 
   --Text-Shadow-Colour: rgba(102, 102, 255,.45); 
   --Scroller-Colour: rgba(102, 255, 102,.5); 
   --Notification-Colour: rgba(102, 255, 102,1); 
@@ -36,10 +35,12 @@
   --Popout-Main-Colour: rgba(255, 102, 102,1); 
   --Popout-Background: url(https://i.imgur.com/iKywsWD.jpg); 
   --Popout-Text-Shadow-Colour: rgba(102, 102, 255,.45); 
-  --Emote-Popout-Background: url(https://i.imgur.com/iKywsWD.jpg);  
+  --Emote-Popout-Background: url(https://i.imgur.com/iKywsWD.jpg);
+  --File-Updated-2019-5-10: ;
   --Settings-Dock-Colour: rgba(102, 255, 102,1); 
   --Timestamp-Colour: rgba(102, 255, 102,.5); 
-  --Background-Brightness: .5; 
-  --Guild-Rows: 2; 
+  --Background-Darkness: .5; 
+  --Guild-Columns: 2; 
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%; 
 } 

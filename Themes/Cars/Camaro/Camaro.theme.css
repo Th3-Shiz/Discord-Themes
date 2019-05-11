@@ -3,36 +3,34 @@
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
 /* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/Yes.css);
-/* Minimal Mode */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
 /* Channels */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
 /* Chat Title Bar */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
 /* Guild List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
 /* Invites */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
 /* Member List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
 /* Windows Bar */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
 /* Offline Members */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
 /* User Popout Footer */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
  
 /* Transparency Patch */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 
 :root {
     --Main-Colour: rgb(116, 179, 252);
     --Background-Colour: rgba(0,0,0,1);
-    --S-Colour: rgba(0,0,0,.3);
-    --M-Colour: rgb(122, 157, 252);
+    --Secondary-Background-Colour: rgba(0,0,0,.3);
+    --Secondary-Main-Colour: rgb(122, 157, 252);
     --Text-Shadow-Colour: rgba(0,0,0,.65);
     --Scroller-Colour: rgba(7, 11, 252, 0);
     --Notification-Colour: rgb(60, 7, 252);
@@ -52,11 +50,13 @@
     --Popout-Background: url(https://i.imgur.com/8Gilf7X.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background:url(https://i.imgur.com/eVJYwqs.jpg);
+    --File-Updated-2019-5-10: ;
     --Settings-Dock-Colour: var(--Main-Colour);
-    --Timestamp-Colour: var(--M-Colour);
-    --Guild-Rows: 1;
+    --Timestamp-Colour: var(--Secondary-Main-Colour);
+    --Guild-Columns: 1;
+    --ServerFolders-Guild-Columns: var(--Guild-Columns);
     --Chat-Avatar-Border-Radius: 40%;
-    --Background-Brightness: 0.4;
+    --Background-Darkness: 0.4;
   }
   /* Rainbow Message Box*/
   .theme-dark .inner-zqa7da:focus-within {animation: CLog 2s infinite linear }
@@ -75,7 +75,7 @@
 
    Borders around the channels
 .container-0,.container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11,.container-12,.container-13,.container-14,.container-15,.container-16,.container-17,.container-18,.container-19,.container-20 {
-  border: 1px var(--M-Colour) solid;
+  border: 1px var(--Secondary-Main-Colour) solid;
   border-radius: 5px;
   margin-bottom: 5px;
   transition: all 200ms;
