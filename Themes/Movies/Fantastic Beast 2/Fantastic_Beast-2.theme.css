@@ -1,13 +1,18 @@
-/*//META{"name":"Fantastic-Beast-2","description":" Fantastic Beast 2-The Crimes of Grindelwald theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
+/** 
+ * @name Fantastic-Beast-2
+ * @author Shiz
+ * @version ersion auto updates
+ * @description Fantastic Beast 2-The Crimes of Grindelwald theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @source https://github.com/The-Shiz/Discord-Themes
+ * @website https://nfld99.com/
+*/
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
-/*BetterDocs Blocker*/
-@import url(https://anti-betterdocs.github.io/BlockBetterDocs/code.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
-/* Minimal Mode */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Minimal/No.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
 /* Settings Dock */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
 /* Channels */
