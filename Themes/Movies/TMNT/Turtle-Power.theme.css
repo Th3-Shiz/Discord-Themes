@@ -1,4 +1,11 @@
-/*//META{"name":"TMNT","description":" Turtle Power theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
+/** 
+ * @name TMNT
+ * @author Shiz
+ * @version ersion auto updates
+ * @description Turtle Power theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @source https://github.com/The-Shiz/Discord-Themes
+ * @website https://nfld99.com/
+*/
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
@@ -52,7 +59,7 @@
     --Popout-Background: url(https://i.imgur.com/8kqX4Iw.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background: url(https://i.imgur.com/0mUsO48.jpg);
-    --File-Updated-2019-5-10: ;
+    --File-Updated-2019-6-19: ;
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: var(--Secondary-Main-Colour);
     --Guild-Columns: 1;

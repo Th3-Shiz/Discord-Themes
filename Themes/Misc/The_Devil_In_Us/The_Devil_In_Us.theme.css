@@ -1,4 +1,11 @@
-//META{"name":"The_Devil_In_Us","description":" The_Devil_In_Us theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
+/** 
+ * @name The_Devil_In_Us
+ * @author Shiz
+ * @version ersion auto updates
+ * @description The_Devil_In_Us theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @source https://github.com/The-Shiz/Discord-Themes
+ * @website https://nfld99.com/
+*/
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
@@ -50,7 +57,7 @@
     --Popout-Background: url(https://i.imgur.com/vFx5s22.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background: url(https://i.imgur.com/Wa6E6Li.png);
-    --File-Updated-2019-5-10: ;
+    --File-Updated-2019-6-19: ;
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: var(--Secondary-Main-Colour);
     --Guild-Columns: 2;
