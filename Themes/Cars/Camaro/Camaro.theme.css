@@ -1,4 +1,11 @@
-//META{"name":"Camaro","description":" Camaro theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} 
+/** 
+ * @name Camaro
+ * @author Shiz
+ * @version ersion auto updates
+ * @description Camaro theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @source https://github.com/The-Shiz/Discord-Themes
+ * @website https://nfld99.com/
+*/
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
@@ -6,6 +13,8 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
 /* Channels */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
 /* Chat Title Bar */
@@ -50,7 +59,7 @@
     --Popout-Background: url(https://i.imgur.com/8Gilf7X.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background:url(https://i.imgur.com/eVJYwqs.jpg);
-    --File-Updated-2019-5-10: ;
+    --File-Updated-2019-6-19: ;
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: var(--Secondary-Main-Colour);
     --Guild-Columns: 1;

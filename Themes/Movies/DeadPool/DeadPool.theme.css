@@ -1,4 +1,11 @@
-//META{"name":"DeadPool","description":" DeadPool-theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Shiz","version":"ersion auto updates"}*//{} } 
+/** 
+ * @name DeadPool
+ * @author Shiz
+ * @version ersion auto updates
+ * @description DeadPool theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @source https://github.com/The-Shiz/Discord-Themes
+ * @website https://nfld99.com/
+*/
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
@@ -52,7 +59,7 @@
   --Popout-Background: url(https://i.imgur.com/ekVjlCo.jpg);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background: url(https://i.imgur.com/QNAZxix.jpg);
-  --File-Updated-2019-5-10: ;
+  --File-Updated-2019-6-19: ;
   --Settings-Dock-Colour: rgb(250, 14, 14);
   --Timestamp-Colour: rgb(6, 248, 216);
   --Guild-Columns: 2;
