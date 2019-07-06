@@ -67,6 +67,8 @@
   --Chat-Avatar-Border-Radius: 35%;
   --Background-Darkness: 0.3;
 }
+
+
 /* disabling divider */
 .theme-dark .dividerEnabled-2TTlcf {
 	border: none;
@@ -84,7 +86,7 @@
 	box-shadow: 0px 0px 10px #f162de;
 }
 
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
     background-color: var(--color-main);
     border: 1px solid rgb(240, 6, 119);
     border-bottom-color: #f162de;
