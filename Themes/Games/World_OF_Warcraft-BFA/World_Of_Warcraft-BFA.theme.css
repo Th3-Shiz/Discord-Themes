@@ -80,22 +80,22 @@
 
 /* sending message area adding a border */
 .da-app .inner-zqa7da {
-	border: 1px solid rgb(8, 88, 247);
+	border: 1px solid rgb(245, 10, 123);
 	border-radius: 5px;
-	box-shadow: 0px 0px 10px #f70b0b;
+	box-shadow: 0px 0px 10px #f162de;
 }
 
-.contentSelectedText-3wUhMi,.content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
     background-color: var(--color-main);
-    border: 1px solid rgb(55, 92, 167);
-    border-bottom-color: #f51111;
+    border: 1px solid rgb(240, 6, 119);
+    border-bottom-color: #f162de;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-width: 2.5px;
 }
-.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,.content-3at_AU, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
     background-color: var(--color-main);
-    border: 1px solid rgb(241, 14, 14);
+    border: 1px solid rgba(246,148,196,1);
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-width: 2.5px;
@@ -105,7 +105,7 @@
 /* connected voice area */
 .container-1UB9sr {
 	background-color: var(--color-main);
-	border: 1px solid rgb(241, 25, 25);
+	border: 1px solid rgba(246,148,196,1);
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
@@ -113,15 +113,15 @@
 /* search button at the top */
 .theme-dark .search .search-bar {
     background-color: var(--color-main);
-    border: 1px solid rgb(247, 19, 19);
+    border: 1px solid rgba(246,148,196,1);
 }
 
 
 /* guild add button */
 .theme-dark .guildsAdd-21_IdK {
     background: var(--color-main);
-    border-color: rgb(245, 13, 13);
-    color: rgb(55, 92, 167);
+    border-color: rgba(246,148,196,1);
+    color: rgba(246,148,196,1);
 }
 /* makes hover effect on some areas from default discord */
 .scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-track, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-track {
@@ -137,32 +137,32 @@
 
 /* unread messages */
 .wrapper-232cHJ {
-  background-color: #33579e;
-  box-shadow: 0px 0px 10px #33579e;
+  background-color: #f162de;
+  box-shadow: 0px 0px 10px #f162de;
 }
 
 /* settings my account background */
 .theme-dark .da-cardPrimary, .theme-dark .da-cardPrimaryEditable {
-background: rgba(8, 26, 62, 0.3);
-border-color: rgba(55, 92, 167, 0.4);
+background: rgba(246,148,196,1);
+border-color: rgba(246,148,196,1);
 }
 
 /* settings button normal and hover of categories */
 .da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
-  background-color: #08294f;
-   border: 1px solid #375ca7;
+  background-color: #f509d5;
+   border: 1px solid #f162de;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 }
 .da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-background-color: rgba(25, 65, 112, 0.63);
-   border: 1px solid #375ca7;
+background-color: rgba(246,148,196,1);
+   border: 1px solid #f162de;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 }
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
-background-color: rgba(25, 65, 112, 0.63);
-   border: 1px solid #375ca7;
+background-color: rgba(246,148,196,1);
+   border: 1px solid #f162de;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 height: 40px;
@@ -171,22 +171,23 @@ height: 40px;
 
 /* secondary buttons */
 .da-app .lookFilled-1Gx00P.colorBrand-3pXr91 {
-background-color: #08294f;
+background-color: #f162de;
 }
 
 .da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  background-color: rgb(9, 48, 93);
+  background-color: rgba(246,148,196,1);
 }
 
 /* profile focused button text border */
 .theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
-  border-color: rgba(55, 92, 167, 0.4);
+  border-color: rgba(246,148,196,1);
 }
 
 /* profile area of settings question mark normal and hover */
 .da-app .da-questionMark {
-  background-color: #173c6c;
+  background-color: #f815ad;
 }
 .da-app .da-questionMark:hover {
-  background-color: #205293;
+  background-color: #f162de;
 }
+
