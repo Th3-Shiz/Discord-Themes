@@ -11,3 +11,11 @@ Borders around the channels
   margin-bottom: 5px;
   transition: all 200ms;
 }
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+  background-color: rgba(246,148,196,1);
+     border: 1px solid #f162de;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 40px;
+    width: 0px;
+  }
