@@ -82,5 +82,15 @@
     margin-bottom: 5px;
     transition: all 200ms;
   }
+  .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
+    border: 1px var(--Secondary-Main-Colour) solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 200ms;
+  }
+  .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+    display: none !important;
+  }
 
 
+  
