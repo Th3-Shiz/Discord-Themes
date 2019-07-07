@@ -84,13 +84,16 @@
 	box-shadow: 0px 0px 10px #f162de;
 }
 
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+.contentSelectedText-3wUhMi,.content-3at_AU,.contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
     background-color: var(--color-main);
     border: 1px solid rgb(240, 6, 119);
     border-bottom-color: #f162de;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-width: 2.5px;
+}
+.channel-2QD9_O.selected-1HYmZZ a {
+  border: 0px;
 }
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
     background-color: var(--color-main);
@@ -147,18 +150,7 @@ border-color: rgba(246,148,196,1);
 }
 
 /* settings button normal and hover of categories */
-.da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
-  background-color: #f509d5;
-   border: 1px solid #f162de;
-border-top-left-radius: 20px;
-border-bottom-right-radius: 20px;
-}
-.da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-background-color: rgba(246,148,196,1);
-   border: 1px solid #f162de;
-border-top-left-radius: 20px;
-border-bottom-right-radius: 20px;
-}
+
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
 background-color: rgba(246,148,196,1);
    border: 1px solid #f162de;
