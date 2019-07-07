@@ -155,12 +155,7 @@ border-color: rgba(246,148,196,1);
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 }
-.da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-background-color: rgba(246,148,196,1);
-   border: 1px solid #f162de;
-border-top-left-radius: 20px;
-border-bottom-right-radius: 20px;
-}
+
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
 background-color: rgba(246,148,196,1);
    border: 1px solid #f162de;
