@@ -121,18 +121,7 @@
       color: rgb(55, 167, 167);
   }
   /* settings button normal and hover of categories */
-  .da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
-    background-color: #084d4f;
-     border: 1px solid #37a0a7;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  }
-  .da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-  background-color: rgba(25, 112, 112, 0.63);
-     border: 1px solid #379aa7;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  }
+
   .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
   background-color: rgba(25, 109, 112, 0.63);
      border: 1px solid #37a0a7;
@@ -141,14 +130,15 @@
   height: 40px;
     width: 0px;
   }
-  
+  .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
+    border: 1px var(--Secondary-Main-Colour) solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 200ms;
+  }
 
 /* sending message area adding a border */
-.da-app .inner-zqa7da {
-	border: 1px solid rgb(55, 163, 167);
-	border-radius: 5px;
-	box-shadow: 0px 0px 10px #37a0a7;
-}
+
 
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
     background-color: var(--color-main);
