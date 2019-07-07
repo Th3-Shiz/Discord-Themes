@@ -84,13 +84,16 @@
 	box-shadow: 0px 0px 10px #f7cc0b;
 }
 
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-    background-color: var(--color-main);
-    border: 1px solid rgb(115, 167, 55);
-    border-bottom-color: #f5d311;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-width: 2.5px;
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--main-colour);
+  border: 2px solid silver;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+}
+.channel-2QD9_O.selected-1HYmZZ a {
+border: 0px;
 }
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
     background-color: var(--color-main);
@@ -153,12 +156,7 @@ border-color: rgba(68, 240, 26, 0.4);
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 }
-.da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-background-color: rgba(39, 112, 25, 0.63);
-   border: 1px solid #78f823;
-border-top-left-radius: 20px;
-border-bottom-right-radius: 20px;
-}
+
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
 background-color: rgba(60, 112, 25, 0.63);
    border: 1px solid #5df317;
