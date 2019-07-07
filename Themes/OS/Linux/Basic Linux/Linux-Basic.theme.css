@@ -67,6 +67,13 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.1;
 }
+/*Channel Borders*/
+.containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
+  border: 1px var(--Secondary-Main-Colour) solid;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: all 200ms;
+}
 .theme-dark .scrollbar-3dvm_9 {
   background-color: rgba(9, 163, 252, 0.24) !important;
  }
@@ -99,13 +106,16 @@
 	box-shadow: 0px 0px 10px #0bc0f7;
 }
 
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+.contentSelectedText-3wUhMi, .content-3at_AU,.contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
     background-color: var(--color-main);
     border: 1px solid rgb(55, 160, 167);
     border-bottom-color: #11edf5;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-width: 2.5px;
+}
+.channel-2QD9_O.selected-1HYmZZ a {
+  border: 0px;
 }
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
     background-color: var(--color-main);
@@ -168,12 +178,7 @@ border-color: rgba(55, 92, 167, 0.4);
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 }
-.da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-background-color: rgba(25, 65, 112, 0.63);
-   border: 1px solid #375ca7;
-border-top-left-radius: 20px;
-border-bottom-right-radius: 20px;
-}
+
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
 background-color: rgba(25, 65, 112, 0.63);
    border: 1px solid #375ca7;
