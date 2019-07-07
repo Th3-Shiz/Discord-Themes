@@ -17,13 +17,16 @@ Borders on selected and highlighted
 	box-shadow: 0px 0px 10px #f70b0b;
 }
 
-.contentSelectedText-3wUhMi,.content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-    background-color: var(--color-main);
-    border: 1px solid rgb(55, 92, 167);
-    border-bottom-color: #f51111;
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+    background-color: var(--main-colour);
+    border: 2px solid silver;
+    border-bottom: 2px solid black;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-width: 2.5px;
+}
+.channel-2QD9_O.selected-1HYmZZ a {
+  border: 0px;
 }
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4,.content-3at_AU, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
     background-color: var(--color-main);
