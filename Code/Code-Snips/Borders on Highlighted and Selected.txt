@@ -28,6 +28,12 @@ Borders on selected and highlighted
 .channel-2QD9_O.selected-1HYmZZ a {
   border: 0px;
 }
+.containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
+  border: 1px var(--Secondary-Main-Colour) solid;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: all 200ms;
+}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4,.content-3at_AU, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
     background-color: var(--color-main);
     border: 1px solid rgb(241, 14, 14);
