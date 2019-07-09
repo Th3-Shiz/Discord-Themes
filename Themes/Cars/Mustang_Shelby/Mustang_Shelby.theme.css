@@ -67,6 +67,15 @@
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.1;
   }
+  /* Home Button*/
+  a.button-OhfaWu.wrapper-1BJsBx{
+    background: url(https://i.imgur.com/URdnGZ7.jpg) 50% 50%/cover;
+   }
+   
+   .homeIcon-tEMBK1{
+    display: none;
+   }
+
   /* Rainbow Message Box*/
   .theme-dark .inner-zqa7da:focus-within {animation: CLog 2s infinite linear }
   /* Borders around channels*/
@@ -90,7 +99,8 @@
   }
   .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
     display: none !important;
-  }
+  
+}
   
 
 
