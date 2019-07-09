@@ -1,0 +1,9 @@
+Change Home button Icon
+
+a.button-OhfaWu.wrapper-1BJsBx{
+ background: url(LINK) 50% 50%/cover;
+}
+
+.homeIcon-tEMBK1{
+ display: none;
+}
