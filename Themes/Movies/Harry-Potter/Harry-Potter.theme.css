@@ -75,6 +75,15 @@
   background:url(https://i.imgur.com/ojSMORF.jpg?1) 50% 50%/cover;
   }
   /* END */
+  /* Home Icon Pic*/
+  a.button-OhfaWu.wrapper-1BJsBx{
+    background: url(https://i.imgur.com/7eEx7CY.jpg) 50% 50%/cover;
+   }
+   
+   .homeIcon-tEMBK1{
+    display: none;
+   }
+
   /*Borders and Message Boxes*/
   .da-app .inner-zqa7da {
     border: 1px solid rgb(55, 163, 167);

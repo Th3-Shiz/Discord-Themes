@@ -62,11 +62,21 @@
   --File-Updated-2019-6-19: ;
   --Settings-Dock-Colour:rgb(248, 252, 252);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
-  --Guild-Columns: 2;
+  --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%;
-  --Background-Darkness: .3;
+  --Background-Darkness: .2;
 }
+
+/* Home Icon Pic*/
+a.button-OhfaWu.wrapper-1BJsBx{
+  background: url(https://i.imgur.com/PpNXkXx.jpg) 50% 50%/cover;
+ }
+ 
+ .homeIcon-tEMBK1{
+  display: none;
+ }
+
 .scroller-2FKFPG {border-right: solid rgba(102, 102, 102, 0.158)
 }
 
