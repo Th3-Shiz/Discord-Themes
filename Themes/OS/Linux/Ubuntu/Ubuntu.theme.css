@@ -67,6 +67,14 @@
   --Chat-Avatar-Border-Radius: 45%;
   --Background-Darkness: 0.20;
 }
+/* Home button pic*/
+a.button-OhfaWu.wrapper-1BJsBx{
+  background: url(https://i.imgur.com/loglyjl.jpg?1) 50% 50%/cover;
+ }
+ 
+ .homeIcon-tEMBK1{
+  display: none;
+ }
 .scroller-2FKFPG {border-right: solid rgba(233, 152, 45, 0.158)
 }
 .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
