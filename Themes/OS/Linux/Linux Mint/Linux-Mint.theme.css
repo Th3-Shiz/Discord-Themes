@@ -62,12 +62,22 @@
     --File-Updated-2019-6-19: ;
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: var(--Secondary-Main-Colour);
-    --Guild-Columns: 2;
+    --Guild-Columns: 1;
     --ServerFolders-Guild-Columns: var(--Guild-Columns);
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.2;
   }
+  /* Home button edit*/
+  a.button-OhfaWu.wrapper-1BJsBx{
+    background: url(https://i.imgur.com/YlJKCEg.png) 50% 50%/cover;
+   }
+   
+   .homeIcon-tEMBK1{
+    display: none;
+   }
   
+   /*Wrappers*/
+
 .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
   display: none !important;
 }
