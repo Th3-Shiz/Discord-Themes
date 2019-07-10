@@ -4,4 +4,48 @@ Here will be updates to code as come's
 1):Code has been updated for the BetterDocs Blocker 
 2) Borders for around channels added...
 3)BetterDocs import removed is now hard coded into core..
-4)
+4)Updates to Vars and Meta
+
+/** 
+ * @name 
+ * @author Shiz
+ * @version ersion auto updates
+ * @description theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @source https://github.com/The-Shiz/Discord-Themes
+ * @website https://nfld99.com/
+*/
+
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/Yes.css);
+/* Guild List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+ 
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+
+--Secondary-Background-Colour:
+ --Secondary-Main-Colour:
+--File-Updated-2019-6-19: ;
+--Guild-Columns: 1;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+--Background-Darkness:
