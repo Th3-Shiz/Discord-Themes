@@ -67,6 +67,14 @@
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.5;
   }
+  /* Home Button*/
+  a.button-OhfaWu.wrapper-1BJsBx{
+    background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
+   }
+   
+   .homeIcon-tEMBK1{
+    display: none;
+   }
 
   .theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl {
     color: hsla(0,0%,100%,.6);

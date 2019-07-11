@@ -67,6 +67,14 @@
   --Chat-Avatar-Border-Radius: 35%;
   --Background-Darkness: 0.3;
 }
+/* Home Button*/
+a.button-OhfaWu.wrapper-1BJsBx{
+  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
+ }
+ 
+ .homeIcon-tEMBK1{
+  display: none;
+ }
 /*Channel Borders*/
 .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
   border: 1px var(--Secondary-Main-Colour) solid;

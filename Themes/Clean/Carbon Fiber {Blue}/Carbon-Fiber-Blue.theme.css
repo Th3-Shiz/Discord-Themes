@@ -67,6 +67,14 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.22;
 }
+/* Home Button*/
+a.button-OhfaWu.wrapper-1BJsBx{
+  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
+ }
+ 
+ .homeIcon-tEMBK1{
+  display: none;
+ }
 .scroller-2FKFPG {border-right: solid rgba(28, 69, 250, 0.158)
 }
 .theme-dark .scrollbar-3dvm_9 {

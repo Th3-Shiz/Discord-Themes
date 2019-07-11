@@ -69,6 +69,14 @@
   }
   .scroller-2FKFPG {border-right: solid rgba(86, 247, 23, 0.103)
   }
+  /* Home Button*/
+  a.button-OhfaWu.wrapper-1BJsBx{
+    background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
+   }
+   
+   .homeIcon-tEMBK1{
+    display: none;
+   }
   
   .theme-dark .item-1Yvehc {
     background: rgba(0, 26, 2, 0.562) !important;
