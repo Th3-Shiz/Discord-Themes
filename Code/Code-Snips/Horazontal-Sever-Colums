@@ -1,0 +1,48 @@
+#bd-pub-li{
+  transform: rotate(-180deg);
+}
+
+.wrapper-1Rf91z {
+  position: absolute;
+  z-index: 5;
+  height: 99.9vw;
+  width: calc(var(--ServerFolders-Guild-Columns) * 60px + 4px + 20px);
+  transform: rotate(-90deg);
+  top: calc(var(--ServerFolders-Guild-Columns) * 60px + 4px + 20px);
+  transform-origin: top left;
+  z-index: 999; 
+}
+
+#app-mount .base-3dtUhz {
+  border-radius: 0;
+  margin-top: calc(var(--ServerFolders-Guild-Columns) * 60px + 4px);
+  transition: 0.3s ease;
+  transition-delay: 0.3s; 
+}
+
+.wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh {
+  transform: rotate(90deg);
+  width:  calc(var(--ServerFolders-Guild-Columns) * 60px + 4px);
+  height:  calc(var(--ServerFolders-Guild-Columns) * 60px + 4px);
+  margin: 0 0 10px 10px; 
+}
+
+body.foldercontentopened .base-3dtUhz {
+  margin-top: calc(var(--ServerFolders-Guild-Columns) * 60px + 4px) !important;
+  transition-delay: 0s !important; 
+}
+
+.wrapper-1Rf91z.foldercontent {
+  top: calc(var(--ServerFolders-Guild-Columns) * 60px + 4px) !important;
+  margin-top: calc(var(--ServerFolders-Guild-Columns) * 60px + 4px) !important;
+  transition: 0.3s ease !important;
+  transition-delay: 0s !important;
+}
+
+.wrapper-1Rf91z.foldercontent.foldercontentopen {
+  transition-delay: 0.3s !important; 
+}
+
+.bd-guild-separator,.guildSeparator-3s64Iy{
+  transform: rotate(90deg);
+}
