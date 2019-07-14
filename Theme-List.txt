@@ -45,6 +45,7 @@ Misc:
 2)Cat_Eyes
 3)The_Devil_In_Us
 4)Relaxation
+5)Stranger Things
 -------------------------------------------------------------------------------------
 Movies:
 1)DeadPool
