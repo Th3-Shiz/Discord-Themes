@@ -10,4 +10,5 @@ All Themes 7zip To download all themes
 7-8-19; Zips added for all themes, to download 
 7-10-19 Home button icon added to all themes and zips updated
 7/14/19 Theme {Stranger things} added to Mic also the zip for theme added
-7/14/19 Theme {Warface} added tp games
+7/14/19 Theme {Warface} added to games
+7/16/19Theme {Darkness} added to Misc
