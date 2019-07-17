@@ -49,3 +49,6 @@ Here will be updates to code as come's
 --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
 --Background-Darkness:
+
+5) Added Divider between messages and Memberlist bottom border removel
+
