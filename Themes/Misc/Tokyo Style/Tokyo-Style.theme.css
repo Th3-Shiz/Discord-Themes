@@ -1,8 +1,8 @@
 /**
- * @name Darkness
+ * @name Tokyo-Style
  * @author Shiz
  * @version ersion auto updates
- * @description Darkness theme made using NFLD99 core
+ * @description Tokyo-Style theme made by shiz using NFLD99 core
  * @source https://github.com/The-Shiz/Discord-Themes
  * @website https://nfld99.com/
 */
@@ -33,37 +33,38 @@
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 :root {
-  --Main-Colour: rgba(252,123,246,1);
-  --Background-Colour: rgba(15,30,63,1);
-  --Secondary-Background-Colour: rgba(15,30,63,.3);
-  --Secondary-Main-Colour: rgba(252,123,246,.5);
+  --Main-Colour: rgba(182,35,178,1);
+  --Background-Colour: rgba(3,10,14,1);
+  --Secondary-Background-Colour: rgba(3,10,14,.3);
+  --Secondary-Main-Colour: rgba(182, 35, 177, 0.986);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
-  --Scroller-Colour: rgba(252,123,246,0);
-  --Notification-Colour: rgba(252,123,246,1);
+  --Scroller-Colour: rgba(182,35,178,0);
+  --Notification-Colour: rgba(182,35,178,1);
   --Chat-Input-Background: rgba(0,0,0,0);
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://i.imgur.com/wCuJSgp.jpg);
-  --Settings-Background: url(https://i.imgur.com/60LYsdC.jpg);
-  --Callout-Background: url(https://i.imgur.com/wCuJSgp.jpg);
+  --Chat-Background: url(https://i.imgur.com/rCnrQyY.jpg);
+  --Settings-Background: url(https://i.imgur.com/iTj8oxC.jpg);
+  --Callout-Background: url(https://i.imgur.com/FoFoFME.jpg);
   --Title-Background: var(--Background-Colour);
-  --Theme-Variant: " Darkness";
-  --Chat-Font-Used: 'Arima Madurai', cursive;
-  --Chat-Font-Size: 15px;
+  --Theme-Variant: " Tokyo Style";
+  --Chat-Font-Used: 'Lobster Two', cursive;
+  --Chat-Font-Size: 17px;
   --Unread-Message-Speed: 1.5s;
   --Popout-Main-Colour: var(--Main-Colour);
-  --Popout-Background: var(--Chat-Background);
+  --Popout-Background: url(https://i.imgur.com/FoFoFME.jpg);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background: var(--Secondary-Background-Colour);
+  --Emote-Popout-Background: url(https://i.imgur.com/rKpYU4q.jpg);
   --File-Updated-2019-6-19: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%;
-  --Background-Darkness: 0.4;
+  --Background-Darkness: 0.2;
 }
+
 /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }
@@ -76,8 +77,17 @@
 .message-1PNnaP {
     margin-bottom: 0em;
 }
-
-
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--main-colour);
+  border: 2px solid rgb(253, 43, 225);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.699);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+}
+.channel-2QD9_O.selected-1HYmZZ a {
+border: 0px;
+}
 a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
  }
@@ -85,16 +95,27 @@ a.button-OhfaWu.wrapper-1BJsBx{
  .homeIcon-tEMBK1{
   display: none;
  }
-.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-  background-color: var(--main-colour);
-  border: 2px solid silver;
-  border-bottom: 2px solid black;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-width: 2.5px;
+/* settings button normal and hover of categories */
+.da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+  background-color: var(--Main-Colour);
+   border: 1px solid #e92bc9;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
 }
-.channel-2QD9_O.selected-1HYmZZ a {
-border: 0px;
+.da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover, .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover {
+background-color: var(--Main-Colour);
+   border: 1px solid #de3fec;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+/* secondary buttons */
+.da-app .lookFilled-1Gx00P.colorBrand-3pXr91 {
+background-color: #d13ff5;
+}
+
+.da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: rgb(203, 46, 235);
 }
 .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
   display: none !important;
