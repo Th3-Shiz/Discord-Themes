@@ -47,6 +47,7 @@ Misc:
 4)Relaxation
 5)Stranger Things
 6)Darkness
+7)Tokyo Style
 -------------------------------------------------------------------------------------
 Movies:
 1)DeadPool
