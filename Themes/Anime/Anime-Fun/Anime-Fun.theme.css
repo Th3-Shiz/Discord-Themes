@@ -37,7 +37,7 @@
 
 :root { 
   --Main-Colour: rgba(102, 255, 102,1); 
-  --Background-Colour: rgba(102, 102, 255,1); 
+  --Background-Colour: rgba(102, 102, 255, 0.226); 
   --Secondary-Background-Colour: rgba(102, 102, 255,.3); 
   --Secondary-Main-Colour: rgba(102, 255, 102,.5); 
   --Text-Shadow-Colour: rgba(102, 102, 255,.45); 
@@ -75,3 +75,17 @@ a.button-OhfaWu.wrapper-1BJsBx{
  .homeIcon-tEMBK1{
   display: none;
  }
+ /* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}

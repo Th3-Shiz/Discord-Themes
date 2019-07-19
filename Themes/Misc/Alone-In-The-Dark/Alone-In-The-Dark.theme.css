@@ -84,3 +84,15 @@ a.button-OhfaWu.wrapper-1BJsBx{
 .buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
   display: none !important;
 }
+/* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}

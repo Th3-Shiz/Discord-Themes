@@ -67,14 +67,9 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.3;
 }
-/* Home Button*/
-a.button-OhfaWu.wrapper-1BJsBx{
-  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
- }
- 
- .homeIcon-tEMBK1{
-  display: none;
- }
+/* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
 /* disabling divider */
 .theme-dark .dividerEnabled-2TTlcf {
 	border: none;
@@ -84,12 +79,21 @@ a.button-OhfaWu.wrapper-1BJsBx{
 .message-1PNnaP {
     margin-bottom: 0em;
 }
+/* Home Button*/
+a.button-OhfaWu.wrapper-1BJsBx{
+  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
+ }
+ 
+ .homeIcon-tEMBK1{
+  display: none;
+ }
+
 
 /* sending message area adding a border */
 .da-app .inner-zqa7da {
-	border: 1px solid rgb(8, 88, 247);
+	border: 1px solid rgb(66, 118, 221);
 	border-radius: 5px;
-	box-shadow: 0px 0px 10px #0b1bf7;
+	box-shadow: 0px 0px 10px #434dda;
 }
 
 .contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
