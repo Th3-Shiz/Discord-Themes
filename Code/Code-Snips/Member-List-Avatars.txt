@@ -17,3 +17,22 @@ Edit the member list avatars
   border-radius: 3px;
   margin: 2px 0 2px 8px;
 }
+
+To chave all avatars besides server icons
+
+.mask-1l8v16 {
+    contain: none;
+}
+.wrapper-3t9DeA foreignObject {
+    mask: none;
+}
+.avatarHint-1qgaV3 foreignObject {
+  mask: none;
+}
+/* Changes Border-Radius for Avatars everywhere except for Server Guild Icons   */
+.avatar-VxgULZ {
+    border-radius: 10px;
+}
+.avatarHintInner-Dco91E {
+  border-radius: 10px;
+}
