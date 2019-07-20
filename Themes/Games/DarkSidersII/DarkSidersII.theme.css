@@ -36,10 +36,10 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 
 :root {
-  --Main-Colour: rgba(182,35,178,1);
+  --Main-Colour: rgb(236, 48, 230);
   --Background-Colour: rgba(3,10,14,1);
   --Secondary-Background-Colour: rgba(3,10,14,.3);
-  --Secondary-Main-Colour: rgba(182,35,178,.5);
+  --Secondary-Main-Colour: rgba(228, 130, 224, 0.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
   --Scroller-Colour: rgba(182,35,178,0);
   --Notification-Colour: rgba(182,35,178,1);
@@ -75,12 +75,8 @@ a.button-OhfaWu.wrapper-1BJsBx{
  .homeIcon-tEMBK1{
   display: none;
  }
-/*Channel Borders*/
-.containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
-  border: 1px var(--Secondary-Main-Colour) solid;
-  border-radius: 5px;
-  margin-bottom: 5px;
-  transition: all 200ms;
+ /* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
 }
 /* disabling divider */
 .theme-dark .dividerEnabled-2TTlcf {
@@ -90,6 +86,16 @@ a.button-OhfaWu.wrapper-1BJsBx{
 /* disabling margin between messages */
 .message-1PNnaP {
     margin-bottom: 0em;
+}
+/*Channel Borders*/
+.containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
+  border: 1px var(--Secondary-Main-Colour) solid;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: all 200ms;
+}
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
 }
 
 /* sending message area adding a border */

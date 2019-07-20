@@ -67,6 +67,26 @@
   --Chat-Avatar-Border-Radius: 45%;
   --Background-Darkness: 0.20;
 }
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}
+/* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--color-main);
+  border: 1px solid rgba(245, 155, 37, 0.651);
+  border-bottom-color: #fca037;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
 /* Home Button*/
 a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
@@ -77,9 +97,7 @@ a.button-OhfaWu.wrapper-1BJsBx{
  }
 .scroller-2FKFPG {border-right: solid rgba(233, 152, 45, 0.158)
 }
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
-}
+
 .buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
   display: none !important;
 }

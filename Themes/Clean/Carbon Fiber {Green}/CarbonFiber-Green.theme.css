@@ -66,9 +66,22 @@
     --ServerFolders-Guild-Columns: var(--Guild-Columns);
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.3;
+}
+  .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+    display: none !important;
   }
-  .scroller-2FKFPG {border-right: solid rgba(86, 247, 23, 0.103)
-  }
+  /* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}
   /* Home Button*/
   a.button-OhfaWu.wrapper-1BJsBx{
     background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
@@ -90,13 +103,17 @@
     color: rgb(101, 240, 21)!important;
   }
   
-  div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
-    background: rgb(15, 15, 11) !important;
-    background-color: rgba(14, 238, 33, 0) !important;
-    border: 2px solid rgb(8, 8, 8) !important;
-  }
-
+ 
   .theme-dark .scrollbar-3dvm_9 {
     background-color: rgba(5, 253, 17, 0.219) !important;
    }
-   
+   /*Channel Borders*/
+  
+   .contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+    background-color: var(--color-main);
+    border: 1px solid rgb(53, 240, 6);
+    border-bottom-color: #67f162;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-width: 2.5px;
+}

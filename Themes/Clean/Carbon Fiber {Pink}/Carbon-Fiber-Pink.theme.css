@@ -67,6 +67,30 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.22;
 }
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--color-main);
+  border: 1px solid rgb(240, 6, 119);
+  border-bottom-color: #f162de;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+}
+
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}
+/* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}
 /* Home Button*/
 a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
@@ -75,9 +99,6 @@ a.button-OhfaWu.wrapper-1BJsBx{
  .homeIcon-tEMBK1{
   display: none;
  }
-.scroller-2FKFPG {border-right: solid rgba(230, 127, 230, 0.075)
-}
-
 
 .theme-dark .scrollbar-3dvm_9 {
   background-color: rgba(238, 13, 238, 0.158) !important;
@@ -105,4 +126,4 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 .theme-dark .nameTag-m8r81H, .name-1ug6d4{
     color: rgb(245, 116, 217) !important;
   }
-
+  

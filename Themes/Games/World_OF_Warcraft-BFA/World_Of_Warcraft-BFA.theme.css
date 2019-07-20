@@ -67,6 +67,9 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.40;
 }
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}
 /* Home Button*/
 a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;

@@ -64,14 +64,18 @@
   --Chat-Avatar-Border-Radius: 35%;
   --Background-Darkness: 0.4;
 }
-.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
-  background-color: var(--Text-Shadow-Colour);
-     border: 1px var(--Text-Shadow-Colour);
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  height: 40px;
-    width: 0px;
-  }
+/* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}
 a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
  }

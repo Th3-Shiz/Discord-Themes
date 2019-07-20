@@ -67,6 +67,10 @@
   --Chat-Avatar-Border-Radius: 45%;
   --Background-Darkness: 0.4;
 }
+
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}
 /* Home Button*/
 a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
@@ -75,6 +79,9 @@ a.button-OhfaWu.wrapper-1BJsBx{
  .homeIcon-tEMBK1{
   display: none;
  }
+/* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
 /* disabling divider */
 .theme-dark .dividerEnabled-2TTlcf {
 	border: none;

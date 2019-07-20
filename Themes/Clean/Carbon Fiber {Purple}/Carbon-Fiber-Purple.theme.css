@@ -39,10 +39,10 @@
   --Main-Colour: rgb(210, 165, 247);
   --Background-Colour: rgba(10, 9, 10, 0.815);
   --Secondary-Background-Colour: rgba(141, 14, 252, 0);
-  --Secondary-Main-Colour: rgb(180, 11, 247);
+  --Secondary-Main-Colour: rgb(184, 14, 252);
   --Text-Shadow-Colour: rgba(10, 10, 10, 0.233);
   --Scroller-Colour: rgba(174, 18, 236, 0.014);
-  --Notification-Colour: rgba(212, 142, 240, 0.651);
+  --Notification-Colour: rgba(181, 15, 247, 0.651);
   --Chat-Input-Background: rgba(174, 18, 236, 0.13);
   --Chat-Input-Colour:rgb(248, 245, 250) ;
   --Unread-Message-1: var(--Main-Colour) ;
@@ -65,8 +65,35 @@
   --Guild-Columns: 2;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%;
-  --Background-Darkness: 0.22;
+  --Background-Darkness: 0.5;
 }
+/* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}
+
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--color-main);
+  border: 1px solid rgba(174, 18, 236, 0.014);
+  border-bottom-color: #7a1c6e;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}
+
 /* Home Button*/
 a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
