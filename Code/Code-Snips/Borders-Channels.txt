@@ -27,3 +27,13 @@ Newest
   margin-bottom: 5px;
   transition: all 200ms;
 }
+Thinner borders around Channels not subs 
+
+
+.containerDefault-3GGEv_ > .wrapper-CU3qI5{
+  border: 1px solid var(--Main-Colour)
+}
+
+.containerDefault-3GGEv_{
+  padding-top: 14px;
+}
