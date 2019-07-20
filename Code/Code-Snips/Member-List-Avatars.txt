@@ -1,0 +1,19 @@
+Edit the member list avatars
+
+/* Change the Avatar Size in Memberlist */
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+    width: 48px!important;
+    height: 48px!important;
+}
+/* Change the Avatar Status in Memberlist */
+.member-3W1lQa .avatarWrapper-3B0ndJ .pointerEvents-2zdfdO {
+    width: 10px;
+    height: 10px;
+}
+/* Change the spacing between the Avatar Memberlist if Avatar is too big */
+.member-3W1lQa {
+  overflow: visible;
+  height: auto;
+  border-radius: 3px;
+  margin: 2px 0 2px 8px;
+}
