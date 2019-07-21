@@ -67,6 +67,35 @@
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.5;
   }
+  /* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+    width: 35px !important;
+    height: 35px !important;
+    background-size: cover;
+  }
+  /* Changes Border-radius Avatar */
+  .avatar-VxgULZ {
+    border-radius: 20px;
+  }
+  .member-3W1lQa .avatarWrapper-3B0ndJ {
+    width: 35px!important;
+    height: 35px!important;
+  }
+  .theme-dark .headerCozyMeta-rdohGq::after {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid rgba(55, 150, 167, 0.4);
+}
+  .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+      right:77px; 
+}
+    
   /* Home Button*/
   a.button-OhfaWu.wrapper-1BJsBx{
     background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
@@ -211,18 +240,6 @@
 .theme-dark .headerCozyMeta-rdohGq {
 	position: relative;
 	right: 70px;
-}
-
-.theme-dark .headerCozyMeta-rdohGq::after {
-	content: '';
-    position: absolute;
-    left: -16px;
-    top: 7px;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid rgba(55, 150, 167, 0.4);
 }
 
 .contentCozy-3XX413, .theme-dark .headerCozyMeta-rdohGq {
