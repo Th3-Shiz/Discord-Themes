@@ -18,7 +18,7 @@ Edit the member list avatars
   margin: 2px 0 2px 8px;
 }
 
-To chave all avatars besides server icons
+To change all avatars besides server icons
 
 .mask-1l8v16 {
     contain: none;
@@ -36,3 +36,6 @@ To chave all avatars besides server icons
 .avatarHintInner-Dco91E {
   border-radius: 10px;
 }
+
+What is used on Harry- Potter
+
