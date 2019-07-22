@@ -1,0 +1,116 @@
+/** 
+ * @name Waterfalls
+ * @author Shiz
+ * @version ersion auto updates
+ * @description Waterfalls theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @source https://nfld99.com/shiz.html
+ * @website https://nfld99.com/shiz.html
+*/
+
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Guild List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/No.css);
+
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+
+:root { 
+  --Main-Colour: rgba(102, 255, 102,1); 
+  --Background-Colour: rgba(102, 102, 255, 0.123); 
+  --Secondary-Background-Colour: rgba(102, 102, 255,.3); 
+  --Secondary-Main-Colour: rgba(102, 255, 102,.5); 
+  --Text-Shadow-Colour: rgba(102, 102, 255,.45); 
+  --Scroller-Colour: rgba(102, 255, 102,.5); 
+  --Notification-Colour: rgba(102, 255, 102,1); 
+  --Chat-Input-Background: rgba(102, 173, 255, 0.267); 
+  --Chat-Input-Colour: rgba(102, 255, 102,1); 
+  --Unread-Message-1: rgba(102, 255, 102,1); 
+  --Unread-Message-2: rgba(102, 102, 255,1); 
+  --Chat-Background: url(https://i.imgur.com/uNHNObj.jpg); 
+  --Settings-Background: url(https://i.imgur.com/mTQvPP9.jpg); 
+  --Callout-Background: url(https://i.imgur.com/KsLaqzL.jpg); 
+  --Title-Background: Transpanrent; 
+  --Theme-Variant:"Waterfalls"; 
+  --Chat-Font-Used: 'Schoolbell', cursive; 
+  --Chat-Font-Size: 20px; 
+  --Unread-Message-Speed: 1.5s; 
+  --Popout-Main-Colour: rgba(255, 102, 102,1); 
+  --Popout-Background: url(https://i.imgur.com/mTQvPP9.jpg); 
+  --Popout-Text-Shadow-Colour: rgba(102, 102, 255,.45); 
+  --Emote-Popout-Background: url(https://i.imgur.com/scKbKLA.jpg);
+  --File-Updated-2019-6-19: ;
+  --Settings-Dock-Colour: rgba(102, 255, 102,1); 
+  --Timestamp-Colour: rgba(102, 255, 102,.5); 
+  --Background-Darkness: .3; 
+  --Guild-Columns: 2; 
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+  --Chat-Avatar-Border-Radius: 40%; 
+} 
+/* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 20px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+/* Home Button*/
+a.button-OhfaWu.wrapper-1BJsBx{
+  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
+ }
+ 
+ .homeIcon-tEMBK1{
+  display: none;
+ }
+ /* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
+  display: none !important;
+}
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--main-colour);
+  border: 2px solid silver;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+}
+.channel-2QD9_O.selected-1HYmZZ a {
+border: 0px;
+}
