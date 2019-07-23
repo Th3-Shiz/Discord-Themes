@@ -1,3 +1,14 @@
+Server Icons
+/* For the Server Icons */
+.wrapper-25eVIn .svg-1X37T1 {
+  width: 38px;
+  height: 38px;
+  margin-top: 5px;
+}
+.wrapper-1BJsBx .icon-27yU2q {
+  width: 38px;
+  height: 38px;
+}
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
     width: 80px !important;
