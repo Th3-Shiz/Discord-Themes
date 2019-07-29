@@ -1,13 +1,14 @@
 /**
  * @name Relaxation
  * @description Support Server: https://nfld99.com/discord
- * @author NFLD99
+ * @author Shiz 
  * @version ersion auto updates
+ * @source https://nfld99.com/shiz.html
  * @website https://nfld99.com/
- * @source https://github.com/NFLD99/Better-Discord
 */
 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
@@ -20,6 +21,8 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/No.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
   :root{
 	--Background-Colour: #000000;
 	--Chat-Input-Background: rgba(39, 217, 248, 0);
@@ -44,13 +47,26 @@
 	--Emote-Popout-Background: url(https://nfld99.com/images/Dark-Wood-https://i.imgur.com/xx2L8bN.jpg);
 	--Theme-Variant: "Relaxation";
 	--Chat-Font-Used: 'Doppio One', sans-serif;
-	--File-Updated-2019-6-19: /**/;
+	--File-Updated-2019-7-23: ;
 	--Guild-Columns: 1;
 	--ServerFolders-Guild-Columns: 1;
 	--Unread-Message-Speed: 1.5s;
 	--Chat-Font-Size: 15px;
 	--Chat-Avatar-Border-Radius: 3px;
 	--Background-Darkness: 0.1
+}
+ /* Change Avatar Size(also moves username for you) */
+ .member-3W1lQa .avatarWrapper-3B0ndJ {
+    width: 35px!important;
+    height: 35px!important;
+  }
+  .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+    border: solid var(--Main-Colour);
+    border: solid 1px;
+  }
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
 }
 /* Home Icon*/
 a.button-OhfaWu.wrapper-1BJsBx{

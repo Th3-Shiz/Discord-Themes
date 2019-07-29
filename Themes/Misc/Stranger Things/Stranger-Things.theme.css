@@ -3,11 +3,13 @@
  * @author Shiz
  * @version ersion auto updates
  * @description Stranger Things theme made by shiz using NFLD99 core
- * @source https://github.com/The-Shiz/Discord-Themes
+ * @source https://nfld99.com/shiz.html
  * @website https://nfld99.com/
 */
 /* Source Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
@@ -32,6 +34,8 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/No.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 :root {
   --Main-Colour: rgba(253,60,0,1);
   --Background-Colour: rgba(28,16,28,1);
@@ -56,13 +60,26 @@
   --Popout-Background: url(https://i.imgur.com/Pa9WexN.jpg);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background: url(https://i.imgur.com/XoWTk3e.jpg);
-  --File-Updated-2019-6-19: ;
+  --File-Updated-2019-7-23: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 45%;
   --Background-Darkness: 0.30;
+}
+/* Change Avatar Size(also moves username for you) */
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+  border: solid var(--Main-Colour);
+  border: solid 1px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
 }
 a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;

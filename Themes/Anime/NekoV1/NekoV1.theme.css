@@ -3,12 +3,14 @@
  * @author Shiz
  * @version ersion auto updates
  * @description Neko version 1 theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
- * @source https://github.com/The-Shiz/Discord-Themes
+ * @source https://nfld99.com/shiz.html
  * @website https://nfld99.com/
 */
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
@@ -34,6 +36,8 @@
  
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 
 :root {
   --Main-Colour: rgba(235,121,190,1);
@@ -59,13 +63,26 @@
   --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background: var(--Secondary-Background-Colour);
-  --File-Updated-2019-6-19: ;
+  --File-Updated-2019-7-23: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 15%;
   --Background-Darkness: 0.2;
+}
+ /* Change Avatar Size(also moves username for you) */
+ .member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+  border: solid var(--Main-Colour);
+  border: solid 1px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+width: 35px!important;
+height: 35px!important;
 }
 /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;

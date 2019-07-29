@@ -3,12 +3,14 @@
  * @author Shiz
  * @version ersion auto updates
  * @description Astro-Bot Rescue Mission theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
- * @source https://github.com/The-Shiz/Discord-Themes
+ * @source https://nfld99.com/shiz.html
  * @website https://nfld99.com/
 */
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
@@ -34,6 +36,8 @@
  
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 
 :root {
   --Main-Colour: rgba(0,172,234,1);
@@ -59,13 +63,26 @@
   --Popout-Background:  url(https://i.imgur.com/WGOykYt.jpg);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background:  url(https://i.imgur.com/Oye6B8X.png?1);
-  --File-Updated-2019-6-19: ;
+  --File-Updated-2019-7-23: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.3;
+}
+ /* Change Avatar Size(also moves username for you) */
+ .member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+  border: solid var(--Main-Colour);
+  border: solid 1px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+width: 35px!important;
+height: 35px!important;
 }
 /* Home Button*/
 a.button-OhfaWu.wrapper-1BJsBx{
@@ -101,9 +118,9 @@ a.button-OhfaWu.wrapper-1BJsBx{
 }
 
 .contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-  background-color: var(--main-colour);
-  border: 2px solid silver;
-  border-bottom: 2px solid black;
+  background-color: rgb(19, 247, 236);
+  border: 2px solid rgb(43, 181, 245);
+  border-bottom: 2px solid rgb(33, 159, 243);
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-width: 2.5px;
@@ -138,8 +155,8 @@ border: 0px;
 /* guild add button */
 .theme-dark .guildsAdd-21_IdK {
     background: var(--color-main);
-    border-color: rgb(13, 94, 245);
-    color: rgb(55, 92, 167);
+    border-color: rgb(13, 199, 245);
+    color: rgb(81, 220, 245);
 }
 /* makes hover effect on some areas from default discord */
 .scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-track, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-track {
@@ -155,27 +172,27 @@ border: 0px;
 
 /* unread messages */
 .wrapper-232cHJ {
-  background-color: #33579e;
-  box-shadow: 0px 0px 10px #33579e;
+  background-color: #25dff8;
+  box-shadow: 0px 0px 10px #3fd4ee;
 }
 
 /* settings my account background */
 .theme-dark .da-cardPrimary, .theme-dark .da-cardPrimaryEditable {
-background: rgba(8, 26, 62, 0.3);
-border-color: rgba(55, 92, 167, 0.4);
+background: rgba(38, 218, 250, 0.3);
+border-color: rgba(58, 243, 243, 0.4);
 }
 
 /* settings button normal and hover of categories */
 .da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
-  background-color: #08294f;
-   border: 1px solid #375ca7;
+  background-color: #46d8f1;
+   border: 1px solid #4cc7f8;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 }
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
-background-color: rgba(25, 65, 112, 0.63);
-   border: 1px solid #375ca7;
+background-color: rgba(71, 191, 238, 0.63);
+   border: 1px solid #38dde9;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 height: 40px;
@@ -184,22 +201,22 @@ height: 40px;
 
 /* secondary buttons */
 .da-app .lookFilled-1Gx00P.colorBrand-3pXr91 {
-background-color: #08294f;
+background-color: #2abfec;
 }
 
 .da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  background-color: rgb(9, 48, 93);
+  background-color: rgb(52, 215, 236);
 }
 
 /* profile focused button text border */
 .theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
-  border-color: rgba(55, 92, 167, 0.4);
+  border-color: rgba(44, 221, 245, 0.4);
 }
 
 /* profile area of settings question mark normal and hover */
 .da-app .da-questionMark {
-  background-color: #173c6c;
+  background-color: #1edaf3;
 }
 .da-app .da-questionMark:hover {
-  background-color: #205293;
+  background-color: #21d9f1;
 }
