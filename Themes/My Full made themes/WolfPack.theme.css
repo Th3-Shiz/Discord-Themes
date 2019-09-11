@@ -7,14 +7,14 @@
  * @website https://nfld99.com/shiz.html
 */
 
- /* Home Button*/
- a.button-OhfaWu.wrapper-1BJsBx{
-  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
- }
- 
- .homeIcon-tEMBK1{
-  display: none;
- }
+/* Change Home Icon (uses base64 encoding) */
+.homeIcon-tEMBK1 > path, .homeIcon-tEMBK1,
+.homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
+  opacity: 0;
+}
+.childWrapper-anI2G9{ 
+  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover!important;
+}
 /* Background */
 
 .theme-dark .container-1r6BKw,.container-2lgZY8,.theme-dark .wrapper-1Rf91z, .theme-light .wrapper-1Rf91z,.channels-Ie2l6A,.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3,.theme-dark .members-1998pB,.theme-dark .messagesWrapper-3lZDfY,.container-PNkimc,.appMount-3lHmkl,.theme-dark .contentRegion-3nDuYy,.theme-dark .sidebarRegion-VFTUkN,.theme-dark .standardSidebarView-3F1I7i, .theme-dark .layers-3iHuyZ,.theme-dark .activityFeed-1C0EmJ,.theme-dark .gameLibrary-TTDw4Y,.theme-dark .applicationStore-1pNvnv,.theme-dark .container-3gCOGc{

@@ -97,14 +97,14 @@
 .message-1PNnaP {
     margin-bottom: 0em;
 }
-  /* Home Button*/
-  a.button-OhfaWu.wrapper-1BJsBx{
-    background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
-   }
-   
-   .homeIcon-tEMBK1{
-    display: none;
-   }
+/* Change Home Icon (uses base64 encoding) */
+.homeIcon-tEMBK1 > path, .homeIcon-tEMBK1,
+.homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
+  opacity: 0;
+}
+.childWrapper-anI2G9{ 
+  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover!important;
+}
   .scroller-2FKFPG {border-right: solid rgba(8, 178, 245, 0.089)
   }
   .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
