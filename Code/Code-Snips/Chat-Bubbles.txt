@@ -1,0 +1,74 @@
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+    width: 35px!important;
+    height: 35px!important;
+  }
+  .theme-dark .headerCozyMeta-rdohGq::after {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 8px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid var(--Main-Colour);
+}
+  .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+      right:73px; 
+}
+.markup-2BOw-j, .da-markup-2B0w{
+    position: relative; 
+    right: 78px;
+    top: -7px; !important
+    bottom: 5px;
+ 
+}
+.username-_4ZSMR {
+    position: relative; 
+    right: -3px;
+    bottom: 2px;
+    
+}
+.theme-dark .timestampCozy-2hLAPV {
+    position: relative; 
+    right: -5px;
+    bottom: 20px;
+}
+.theme-dark .headerCozyMeta-rdohGq {
+    position: relative;
+    right: 15px;
+}
+
+.headerCozyMeta-rdohGq,.da-headerCozyMeta.contentCozy-3XX413, .theme-dark .headerCozyMeta-rdohGq {
+    margin-left: -58px;
+}
+
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+    border: none;
+}
+
+/* disabling margin between messages */
+/* .message-1PNnaP {
+    margin-bottom: 0em;
+} */
+
+/* removed to fix weird scroll bug */
+
+.containerCozyBounded-1rKFAn, .container-1YxwTf , .da-containerCozyBounded da-containerCozy da-container32i8lo  {
+    background: var(--Secondary-Background-Colour);
+    border: 1px solid var(--Main-Colour);
+    margin-right: 7px;
+    margin-left: 65px;
+    padding-top: 22px;
+    padding-bottom: -5px;
+    border-radius: 3px;
+}
+
+.headerCozyMeta-rdohGq{
+  margin-top: -20px;
+ 
+ }
+ .botTagRegular-2HEhHi, span.botTagRegular-2HEhHi {
+     right: -5px;
+ }
