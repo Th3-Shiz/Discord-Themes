@@ -50,7 +50,7 @@ For Chat messages borders
     margin-bottom: 0em;
 }
 
-.messageCompact-kQa7ES, .messageCozy-2JPAPA {
+.messageCompact-kQa7ES, .headerCozy-2N9HOL {
     background: rgba(8, 56, 62, 0.3);
     border: 1px solid rgba(55, 167, 167, 0.4);
     margin-right: 7px;
