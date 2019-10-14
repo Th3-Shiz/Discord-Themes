@@ -93,8 +93,9 @@
 }
 
 
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
   border: 1px var(--Secondary-Main-Colour) solid;

@@ -111,8 +111,9 @@ height: 35px!important;
   margin-bottom: 5px;
   transition: all 200ms;
 }
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 
 /* sending message area adding a border */

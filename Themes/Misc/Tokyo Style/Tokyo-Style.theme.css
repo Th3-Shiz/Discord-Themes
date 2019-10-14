@@ -136,6 +136,7 @@ background-color: #d13ff5;
 .da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: rgb(203, 46, 235);
 }
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }

@@ -96,8 +96,9 @@ height: 35px!important;
 .message-1PNnaP {
     margin-bottom: 0em;
 }
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 
 .contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
@@ -107,8 +108,9 @@ height: 35px!important;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-width: 2.5px;
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 
 /* Change Home Icon (uses base64 encoding) */

@@ -115,8 +115,9 @@ height: 35px!important;
 .icon-sxakjD { opacity: .9;
 }
 
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 .buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
   display: none !important;

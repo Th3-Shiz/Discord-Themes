@@ -129,6 +129,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 .message-1PNnaP {
     margin-bottom: 0em;
 }
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }

@@ -118,6 +118,7 @@ a.button-OhfaWu.wrapper-1BJsBx{
 .channel-2QD9_O.selected-1HYmZZ a {
 border: 0px;
 }
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }

@@ -130,8 +130,9 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
     color: rgba(248,252,252) !important;
   }
   
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 .buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
   display: none !important;

@@ -93,8 +93,9 @@ height: 35px!important;
   border-bottom-width: 2.5px;
 }
 
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;

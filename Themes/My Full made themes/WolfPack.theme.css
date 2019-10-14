@@ -128,8 +128,9 @@
 .flex-1O1GKY {
   background: transparent !important
 }
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 /* User box */
 .theme-dark .container-3baos1, .theme-light .container-3baos1 {
