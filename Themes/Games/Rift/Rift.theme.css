@@ -103,9 +103,8 @@ height: 35px!important;
   margin-bottom: 5px;
   transition: all 200ms;
 }
-/* disabling divider */
-.theme-dark .dividerEnabled-2TTlcf {
-	border: none;
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
 }
 
 /* disabling margin between messages */

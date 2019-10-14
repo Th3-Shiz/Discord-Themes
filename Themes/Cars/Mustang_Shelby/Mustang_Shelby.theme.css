@@ -75,9 +75,8 @@
 .member-3W1lQa {border-bottom: none;
 }
   
-/* disabling divider */
-.theme-dark .dividerEnabled-2TTlcf {
-	border: none;
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
 }
 
   /* Home Button*/

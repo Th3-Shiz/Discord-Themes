@@ -1,6 +1,5 @@
-/* disabling divider */
-.theme-dark .dividerEnabled-2TTlcf {
-	border: none;
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
 }
 
 /* disabling margin between messages */

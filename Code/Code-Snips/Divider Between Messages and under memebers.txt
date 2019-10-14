@@ -3,9 +3,8 @@ This will remove divider in chat messages and the bottom border in Member list
 /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }
-/* disabling divider */
-.theme-dark .dividerEnabled-2TTlcf {
-	border: none;
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
 }
 
 /* disabling margin between messages */

@@ -109,9 +109,8 @@ height: 35px!important;
 .buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
   display: none !important;
 }
-/* disabling divider */
-.theme-dark .dividerEnabled-2TTlcf {
-	border: none;
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
 }
 .theme-dark .nameTag-m8r81H, .name-1ug6d4{
   color: rgb(45, 124, 241) !important;

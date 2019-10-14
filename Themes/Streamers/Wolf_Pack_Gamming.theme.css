@@ -33,7 +33,8 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
 /* User Popout Footer */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
- 
+/* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 
@@ -96,9 +97,8 @@ height: 35px!important;
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover!important;
 }
 
-/* disabling divider */
-.theme-dark .dividerEnabled-2TTlcf {
-	border: none;
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
 }
 
 /* disabling margin between messages */
@@ -130,7 +130,7 @@ border: 0px;
     border-bottom-right-radius: 20px;
     border-bottom-width: 2.5px;
     height: 40px;
-    width: 0px;
+    /* width: 0px; */
 }
 /* connected voice area */
 .container-1UB9sr {
