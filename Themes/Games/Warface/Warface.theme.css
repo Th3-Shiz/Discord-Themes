@@ -102,12 +102,16 @@ a.button-OhfaWu.wrapper-1BJsBx{
   transition: all 200ms;
 }
 /* Change Home Icon (uses base64 encoding) */
-.homeIcon-tEMBK1 > path, .homeIcon-tEMBK1,
-.homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
-  opacity: 0;
-}
-.childWrapper-anI2G9{ 
-  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover!important;
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
+  content: "";
+  -webkit-mask: var(--Home-Icon-Mask);
+  -webkit-mask-size: 50% !important;
+  -webkit-mask-position: 50% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: url(https://i.imgur.com/rymBnte.jpg)!important;
+  fill: transparent!important;
+  background-color: transparent!important;
+  color: transparent!important;
 }
  /* Removing Nitro Gift*/
 .button-38aScr[tabindex="3"]{
