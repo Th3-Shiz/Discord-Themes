@@ -97,7 +97,7 @@ height: 35px!important;
 }
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
   content: "";
-  -webkit-mask: none;
+  -webkit-mask: none !important;
   -webkit-mask-size: 50% !important;
   -webkit-mask-position: 50% !important;
   -webkit-mask-repeat: no-repeat!important;

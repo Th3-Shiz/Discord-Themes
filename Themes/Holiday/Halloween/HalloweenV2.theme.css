@@ -66,12 +66,12 @@
 }
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
   content: "";
-  -webkit-mask: none;
+  -webkit-mask: var(--Home-Icon-Mask);
   -webkit-mask-size: 50% !important;
   -webkit-mask-position: 50% !important;
   -webkit-mask-repeat: no-repeat!important;
-  background-image: url(image here)!important;
-  fill: transparent!important;
+  background-image: url(https://i.imgur.com/oVsAL2X.png)!important;
+  fill: transparent !important;
   background-color: transparent!important;
   color: transparent!important;
 }
