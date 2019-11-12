@@ -98,17 +98,14 @@ a.button-OhfaWu.wrapper-1BJsBx{
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;
  }
  
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
-  content: "";
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
   -webkit-mask: none;
-  -webkit-mask-size: 50% !important;
-  -webkit-mask-position: 50% !important;
-  -webkit-mask-repeat: no-repeat!important;
-  background-image: url(https://i.imgur.com/oVsAL2X.png)!important;
-  fill: transparent !important;
-  background-color: transparent!important;
-  color: transparent!important;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
 }.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
   background-color: var(--main-colour);
   border: 2px solid silver;

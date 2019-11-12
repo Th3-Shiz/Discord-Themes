@@ -105,17 +105,14 @@ height: 35px!important;
 .channel-2QD9_O.selected-1HYmZZ a {
 border: 0px;
 }
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
-  content: "";
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
   -webkit-mask: none;
-  -webkit-mask-size: 50% !important;
-  -webkit-mask-position: 50% !important;
-  -webkit-mask-repeat: no-repeat!important;
-  background-image: url(https://i.imgur.com/oVsAL2X.png)!important;
-  fill: transparent !important;
-  background-color: transparent!important;
-  color: transparent!important;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
 }/* settings button normal and hover of categories */
 .da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
   background-color: var(--Main-Colour);

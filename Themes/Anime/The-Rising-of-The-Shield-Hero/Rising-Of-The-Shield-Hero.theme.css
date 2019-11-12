@@ -89,17 +89,14 @@ height: 35px!important;
 .button-38aScr[tabindex="3"]{
   display: none;
 }
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
-  content: "";
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
   -webkit-mask: none;
-  -webkit-mask-size: 50% !important;
-  -webkit-mask-position: 50% !important;
-  -webkit-mask-repeat: no-repeat!important;
-  background-image: url(https://i.imgur.com/oVsAL2X.png)!important;
-  fill: transparent !important;
-  background-color: transparent!important;
-  color: transparent!important;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
 }/* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }
