@@ -120,8 +120,8 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }
-.theme-dark .dividerEnabled-2TTlcf{
-    display: none;
+.groupStart-23k01U {
+    box-shadow: none;
 }
 
 /* disabling margin between messages */
