@@ -34,8 +34,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
-/* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+
 :root {
   --Main-Colour: rgba(182,35,178,1);
   --Background-Colour: rgba(3,10,14,1);
@@ -69,7 +68,7 @@
   --Background-Darkness: 0.2;
 }
 
-/* Change Avatar Size(also moves username for you) */
+
  /* Change Avatar Size(also moves username for you) */
  .member-3W1lQa .avatarWrapper-3B0ndJ {
   width: 35px!important;

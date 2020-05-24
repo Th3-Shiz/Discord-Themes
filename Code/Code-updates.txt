@@ -6,6 +6,8 @@ Here will be updates to code as come's
 3)BetterDocs import removed is now hard coded into core..
 4)Updates to Vars and Meta
 
+
+Old meta:
 /** 
  * @name 
  * @author Shiz
@@ -14,6 +16,24 @@ Here will be updates to code as come's
  * @source https://github.com/The-Shiz/Discord-Themes
  * @website https://nfld99.com/
 */
+
+2/10/2020------
+New Meta:
+/**
+ * @name An_Orion_Deep_Field
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite kWRYPrq
+*/
+
+
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
