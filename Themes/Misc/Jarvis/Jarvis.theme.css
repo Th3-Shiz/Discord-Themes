@@ -2,9 +2,14 @@
  * @name Jarvis
  * @author Shiz
  * @version ersion auto updates
- * @description Jarvis theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @description Jarvis theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg
  * @source https://nfld99.com/shiz.html
  * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
 */
 
 /* Sorce Code */
@@ -21,8 +26,6 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
 /* Chat Title Bar */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Guild List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
 /* Invites */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
 /* Member List */ 
@@ -33,7 +36,8 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
 /* User Popout Footer */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/No.css);
-
+/* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 /* Use Chat Bubbles By Shiz */
@@ -63,7 +67,7 @@
   --Popout-Background: url(https://i.imgur.com/7Dli4og.jpg); 
   --Popout-Text-Shadow-Colour: rgba(102, 102, 255,.45); 
   --Emote-Popout-Background: url(https://i.imgur.com/qy471st.jpg);
-   --File-Updated-2020-5-24: ;
+  --File-Updated-2020-5-24: ;
   --Settings-Dock-Colour: rgba(102, 255, 102, 0.541); 
   --Timestamp-Colour: rgba(102, 255, 102,.5); 
   --Background-Darkness: .1; 
@@ -71,19 +75,24 @@
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%; 
 } 
- /* Change Avatar Size(also moves username for you) */
- .member-3W1lQa .avatarWrapper-3B0ndJ {
+.groupStart-23k01U {
+  box-shadow: none;
+}
+/* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 15px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
   width: 35px!important;
   height: 35px!important;
 }
-.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
-  border: solid var(--Main-Colour);
-  border: solid 1px;
-}
-.member-3W1lQa .avatarWrapper-3B0ndJ {
-width: 35px!important;
-height: 35px!important;
-}
+/* Change Home Icon (uses base64 encoding) */
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
   -webkit-mask: none;
   background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
@@ -92,17 +101,16 @@ height: 35px!important;
 
 .homeIcon-tEMBK1 > path{
   fill: transparent!important;
-} /* Removing the bottom border in member list*/
+}
+ /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }
-.groupStart-23k01U {
-    box-shadow: none;
-}
+
 
 /* disabling margin between messages */
 .message-1PNnaP {
     margin-bottom: 0em;
-}/* Removing Nitro Gift*/
-.button-38aScr[tabindex="3"]{
+/*Removing Nitro gift button*/
+.button-3AYNKb{
   display: none;
 }

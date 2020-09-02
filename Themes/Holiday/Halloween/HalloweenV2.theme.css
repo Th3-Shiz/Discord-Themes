@@ -2,14 +2,19 @@
  * @name HalloweenV2
  * @author The-Shiz
  * @version ersion auto updates
- * @description Support Server: https://nfld99.com/discord
+ * @description HalloweenV2 theme by Shiz based on NFLD99's Template    |   Github: https://git.io/v7ovg
  * @source https://nfld99.com/shiz.html
- * @website https://nfld99.com/shiz.html
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
 */
 /* Source Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
 /* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
 /* Settings Dock */
@@ -30,11 +35,13 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
 /* Use Chat Bubbles By Shiz */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 :root {
   --Main-Colour: rgba(199,93,43,1);
-  --Background-Colour: rgba(60, 61, 63, 0.253);
+  --Background-Colour: rgba(15, 15, 17, 0);
   --Secondary-Background-Colour: rgba(60,61,63,.3);
   --Secondary-Main-Colour: rgba(199,93,43,.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
@@ -56,22 +63,30 @@
   --Popout-Background: url(https://i.imgur.com/kly0pqt.jpg);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background: url(https://i.imgur.com/2YAB9Rj.png);
-   --File-Updated-2020-5-24: ;
+  --File-Updated-2020-5-24: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Chat-Avatar-Border-Radius: 35%;
+  --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.2;
+}
+/*Removing Nitro gift button*/
+.button-3AYNKb{
+  display: none;
+}
+.theme-dark .dividerEnabled-2TTlcf{
+  display: none;
 }
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
   content: "";
-  -webkit-mask: var(--Home-Icon-Mask);
+  -webkit-mask: none !important;
   -webkit-mask-size: 50% !important;
   -webkit-mask-position: 50% !important;
   -webkit-mask-repeat: no-repeat!important;
-  background-image: url(https://i.imgur.com/oVsAL2X.png)!important;
-  fill: transparent !important;
+  background-image: url(image here)!important;
+  fill: transparent!important;
   background-color: transparent!important;
   color: transparent!important;
 }
+

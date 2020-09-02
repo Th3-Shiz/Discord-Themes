@@ -2,9 +2,14 @@
  * @name Tokyo-Style
  * @author Shiz
  * @version ersion auto updates
- * @description Tokyo-Style theme made by shiz using NFLD99 core
+ * @description Tokyo-Style theme made by shiz using NFLD99 core    |   Github: https://git.io/v7ovg
  * @source https://nfld99.com/shiz.html
  * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
 */
 /* Source Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
@@ -20,8 +25,6 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
 /* Chat Title Bar */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Guild List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
 /* Invites */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
 /* Member List */ 
@@ -34,7 +37,10 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
-
+/* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 :root {
   --Main-Colour: rgba(182,35,178,1);
   --Background-Colour: rgba(3,10,14,1);
@@ -59,7 +65,7 @@
   --Popout-Background: url(https://i.imgur.com/FoFoFME.jpg);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background: url(https://i.imgur.com/rKpYU4q.jpg);
-   --File-Updated-2020-5-24: ;
+  --File-Updated-2020-5-24: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 1;
@@ -68,19 +74,19 @@
   --Background-Darkness: 0.2;
 }
 
-
- /* Change Avatar Size(also moves username for you) */
- .member-3W1lQa .avatarWrapper-3B0ndJ {
-  width: 35px!important;
-  height: 35px!important;
+/* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
 }
-.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
-  border: solid var(--Main-Colour);
-  border: solid 1px;
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 15px;
 }
 .member-3W1lQa .avatarWrapper-3B0ndJ {
-width: 35px!important;
-height: 35px!important;
+  width: 35px!important;
+  height: 35px!important;
 }
 /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
@@ -104,6 +110,7 @@ height: 35px!important;
 .channel-2QD9_O.selected-1HYmZZ a {
 border: 0px;
 }
+/* Change Home Icon (uses base64 encoding) */
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
   -webkit-mask: none;
   background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
@@ -112,7 +119,8 @@ border: 0px;
 
 .homeIcon-tEMBK1 > path{
   fill: transparent!important;
-}/* settings button normal and hover of categories */
+}
+/* settings button normal and hover of categories */
 .da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
   background-color: var(--Main-Colour);
    border: 1px solid #e92bc9;
@@ -134,7 +142,7 @@ background-color: #d13ff5;
 .da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: rgb(203, 46, 235);
 }
-/* Removing Nitro Gift*/
-.button-38aScr[tabindex="3"]{
+/*Removing Nitro gift button*/
+.button-3AYNKb{
   display: none;
 }

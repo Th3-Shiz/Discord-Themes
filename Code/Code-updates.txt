@@ -72,3 +72,5 @@ New Meta:
 
 5) Added Divider between messages and Memberlist bottom border removel
 
+will be updating soon 9-2-2020
+

@@ -2,9 +2,14 @@
  * @name Porshe-911-Spyder
  * @author Shiz
  * @version ersion auto updates
- * @description Porshe 911 Spyder theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
+ * @description Porshe 911 Spyder theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg
  * @source https://nfld99.com/shiz.html
  * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
 */
 
 /* Sorce Code */
@@ -21,8 +26,6 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
 /* Chat Title Bar */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Guild List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
 /* Invites */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
 /* Member List */ 
@@ -33,7 +36,8 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
 /* User Popout Footer */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/No.css);
- 
+ /* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 /* Use Chat Bubbles By Shiz */
@@ -56,14 +60,14 @@
     --Callout-Background: url(https://i.imgur.com/kgGd5Fj.jpg?1);
     --Title-Background: var(--Background-Colour);
     --Theme-Variant: "Porshe 911 Spyder";
-    --Chat-Font-Used: ;
+    --Chat-Font-Used: "Whitney";
     --Chat-Font-Size: 17px;
     --Unread-Message-Speed: 1.5s;
     --Popout-Main-Colour: var(--Main-Colour);
     --Popout-Background: url(https://i.imgur.com/hqcq6kJ.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background:url(https://i.imgur.com/y5gCgLo.jpg);
-     --File-Updated-2020-5-24: ;
+    --File-Updated-2020-5-24: ;
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: var(--Secondary-Main-Colour);
     --Guild-Columns: 1;
@@ -71,18 +75,20 @@
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.2;
   }
- /* Change Avatar Size(also moves username for you) */
- .member-3W1lQa .avatarWrapper-3B0ndJ {
-  width: 35px!important;
-  height: 35px!important;
+  /* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
 }
-.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
-  border: solid var(--Main-Colour);
-  border: solid 1px;
+
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 15px;
 }
 .member-3W1lQa .avatarWrapper-3B0ndJ {
-width: 35px!important;
-height: 35px!important;
+  width: 35px!important;
+  height: 35px!important;
 }
   /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
@@ -95,6 +101,7 @@ height: 35px!important;
 .message-1PNnaP {
     margin-bottom: 0em;
 }
+/* Change Home Icon (uses base64 encoding) */
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
   -webkit-mask: none;
   background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
@@ -103,7 +110,8 @@ height: 35px!important;
 
 .homeIcon-tEMBK1 > path{
   fill: transparent!important;
-}  /* Rainbow Message Box*/
+}
+  /* Rainbow Message Box*/
   .theme-dark .inner-zqa7da:focus-within {animation: CLog 2s infinite linear }
 } 
   
@@ -113,12 +121,9 @@ height: 35px!important;
 
 .icon-sxakjD { opacity: .9;
 }
-/* Removing Nitro Gift*/
-.button-38aScr[tabindex="3"]{
+/*Removing Nitro gift button*/
+.button-3AYNKb{
   display: none;
-}
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
-  display: none !important;
 }
 .theme-dark .scrollbar-3dvm_9 {
   background-color: rgba(25, 9, 252, 0.171) !important;
