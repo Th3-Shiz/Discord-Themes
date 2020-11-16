@@ -35,8 +35,8 @@ New Meta:
 
 
 
-/* Sorce Code */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Source Code */
+@import url(https://nfld99.com/Dev_Build.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
