@@ -1,4 +1,4 @@
-Updated- 9/7/2019
+Updated- 10/17/2020
 
 # DiscordThemes
 Discord themes using The BetterDiscord plugin. Themes are based on the core from NFLD99's CSS..
