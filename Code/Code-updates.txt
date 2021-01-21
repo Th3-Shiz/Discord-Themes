@@ -14,7 +14,7 @@ Old meta:
  * @version ersion auto updates
  * @description theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://nfld99.com/discord    |   Website: https://www.nfld99.com
  * @source https://github.com/The-Shiz/Discord-Themes
- * @website https://nfld99.com/
+
 */
 
 2/10/2020------
@@ -25,7 +25,7 @@ New Meta:
  * @version ersion auto updates
  * @description Thank you for choosing NFLD Inc!
  * @source https://github.com/NFLD99/Better-Discord
- * @website https://nfld99.com/
+
  * @patreon https://nfld99.com/patreon
  * @authorLink https://discordhub.com/profile/483413721876529174
  * @donate https://nfld99.com/paypal
