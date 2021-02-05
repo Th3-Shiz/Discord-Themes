@@ -1,45 +1,41 @@
 /**
- * @name Darkness
+ * @name Frames Per Second
  * @author Shiz
  * @version ersion auto updates
  * @description FPS "Frames Per Second" theme made using NFLD99 core
- * @source https://ShadowDevilsAvenged.github.io/
- * @website https://ShadowDevilsAvenged.github.io/
+ * @source https://nfld99.com/shiz.html
+ * @website https://nfld99.com/
+*/
 /* Source Code */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Master_Code.css);
-/* Animations */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Animations/No.css);
-/* Fonts https://ShadowDevilsAvenged.github.io/Font_List.txt */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Fonts/Yes.css);
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Fonts/No.css);
-/* Settings Dock */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Popup/Yes.css);
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Popup/No.css);
-/* Channels */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Channels/No.css);
-/* Chat Title Bar */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Invites */ 
-/* Invites */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Invites/No.css);
-/* Member List */ 
-/* Member List */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Members/No.css);
-/* Windows Bar */ 
-/* Windows Bar */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
-/* Offline Members */ 
-/* Offline Members */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Offline/No.css);
-/* User Popout Footer */ 
-/* User Popout Footer */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
-/* Transparency Patch */ 
-/* Transparency Patch */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Transparency/No.css);
+@import url(https://nfld99.com/Dev_Build.css);
 /* Use Chat Bubbles By Shiz */
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Chat_Bubbles/No.css);
-@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Full_Width_Roles/Yes.css);ss);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 :root {
   --Main-Colour: rgb(245, 8, 233);
   --Background-Colour: rgba(15,30,63,1);
@@ -64,7 +60,7 @@
   --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background: url(https://i.imgur.com/BpUMMQi.png);
-  --File-Updated-2020-5-24: ;
+  --File-Updated-202-1-27: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: rgb(252, 5, 239);
   --Guild-Columns: 1;
@@ -72,6 +68,23 @@
   --Chat-Avatar-Border-Radius: 45%;
   --Background-Darkness: 0.4;
 }
+/* Tweak to the message bar */
+.scrollableContainer-2NUZem{
+  border-bottom-left-radius: 95px;
+  border-top-right-radius: 95px;
+}
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
+}
+
+.membersWrap-2h-GB4:hover > div .member-3-YXUe{
+  height: 42px;
+    transition: height .6s;
+}
+
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
   width: 35px !important;
