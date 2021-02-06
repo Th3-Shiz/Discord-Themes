@@ -26,10 +26,13 @@ New Meta:
  * @description Thank you for choosing NFLD Inc!
  * @source https://github.com/NFLD99/Better-Discord
 
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/shiz.html
  * @patreon https://nfld99.com/patreon
- * @authorLink https://discordhub.com/profile/483413721876529174
+ * @authorLink https://discordhub.com/profile/493938960192634880
  * @donate https://nfld99.com/paypal
- * @authorId 483413721876529174
+ * @authorId 493938960192634880
+ * @invite zqRpUyepHh
  * @invite kWRYPrq
 */
 
@@ -74,3 +77,17 @@ New Meta:
 
 will be updating soon 9-2-2020
 
+
+
+Updated meta 2/5/2021
+
+
+ * @version ersion auto updates
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/shiz.html
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/493938960192634880
+ * @donate https://nfld99.com/paypal
+ * @authorId 493938960192634880
+ * @invite zqRpUyepHh
