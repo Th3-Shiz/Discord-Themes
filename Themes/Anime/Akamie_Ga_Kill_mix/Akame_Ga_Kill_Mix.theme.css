@@ -75,9 +75,20 @@
   --Chat-Avatar-Border-Radius: 35%;
   --Background-Darkness: 0.3;
 }
-/*Removing Nitro gift button*/
-.button-3AYNKb{
-  display: none;
+
+
+
+/* To remove the divider line between messages and Message box extra border */
+.groupStart-23k01U {
+  box-shadow: none;
+}
+.textRow-19NEd_ {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+.theme-dark .channelTextArea-rNsIhG {
+  border-top: 0px solid hsla(0, 0%, 100%, .1);
 }
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
@@ -101,18 +112,6 @@
 
 .homeIcon-tEMBK1 > path{
   fill: transparent!important;
-}
-
-  /* Removing the bottom border in member list*/
-.member-3W1lQa {border-bottom: none;
-}
-.groupStart-23k01U {
-    box-shadow: none;
-}
-
-/* disabling margin between messages */
-.message-1PNnaP {
-    margin-bottom: 0em;
 }
 .da-app .inner-zqa7da {
 	border: 1px solid rgb(241, 19, 19);
@@ -197,8 +196,7 @@ height: 40px;
   display: none;
   }
   
-  
-  
+
   /* Collapsible Member list */
   .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
   height: 0px;
