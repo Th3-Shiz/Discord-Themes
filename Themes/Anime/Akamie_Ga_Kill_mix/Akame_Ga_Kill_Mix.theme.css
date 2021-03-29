@@ -104,15 +104,15 @@
   width: 35px!important;
   height: 35px!important;
 }
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+/* Change Home Icon (uses base64 encoding) */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
+  -webkit-mask: none;    background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
   background-color: var(--Secondary-Main-Colour)!important;
-}
-
-.homeIcon-tEMBK1 > path{
-  fill: transparent!important;
-}
+    }
+  
+    .homeIcon-FuNwkv > path{
+    fill: transparent!important;
+    }
 .da-app .inner-zqa7da {
 	border: 1px solid rgb(241, 19, 19);
 	border-radius: 5px;
@@ -182,14 +182,15 @@ height: 40px;
 }
 
 /* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
+  -webkit-mask: none;    background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
   background-color: var(--Secondary-Main-Colour)!important;
     }
   
-  .homeIcon-tEMBK1 > path{
+    .homeIcon-FuNwkv > path{
     fill: transparent!important;
     }
+  
   
   /*Removing Nitro gift button*/
   .button-3AYNKb{
