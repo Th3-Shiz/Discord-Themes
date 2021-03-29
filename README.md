@@ -7,4 +7,5 @@ If you like the themes, visit NFLD99's website here https://nfld99.com/ The Site
  I take no credit for the core of the themes, In my themes folder you will find themes, that I edited useing NFLD99's core master css, along with Previews of the Edits. Hope you enjoy and find something you Like... If you find anything that needs to be updated/ and or fixed Please let me know By coming to server listed above..
 
  Thank you!
- -The Shiz
+   -Th3-Shiz
+
