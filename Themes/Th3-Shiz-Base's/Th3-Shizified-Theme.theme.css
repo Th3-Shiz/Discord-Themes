@@ -36,7 +36,10 @@
 .card-3RzMcx {
     background-color: rgba(0, 0, 0, 0.26) !important;
 }
-
+.theme-dark .folder-1hbNCn,
+.theme-dark .folder-1hbNCn.hover-2ji_A7 {
+    background-color: rgba(0, 0, 0, 0.427);
+}
 .sourceThumbnail-27dolk {
     background-color: transparent;
 }
@@ -122,12 +125,12 @@
 .sidebar-2K8pFh,
 .container-2lgZY8,
 .theme-dark .layer-3QrUeG,
-.theme-dark .wrapper-1Rf91z,
-.theme-dark .scroller-2TZvBN,
+.theme-dark .wrapper-3NnKdC,
+.theme-dark .scroller-1Bvpku,
 .scroller-305q3I,
 .contentRegionScroller-26nc1e,
 .sidebarRegionScroller-3MXcoP,
-.scroller-2TZvBN {
+.scroller-1Bvpku {
 	background-color: transparent;
 }
 
@@ -344,7 +347,7 @@
 }
 
 
-.scroller-1IIF0A,
+.scroller-1IIF0A, 
 .theme-dark .container-1D34oG,
 .theme-dark .peopleList-3c4jOR,
 .applicationStore-1pNvnv,
@@ -747,7 +750,7 @@ border-radius: 50px;
 .theme-dark .expandedFolderBackground-2sPsd-,
 .theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7 {
    border-radius: 7px;
-   background-color: rgba(0, 0, 0, 0.327);
+   background-color: rgba(0, 0, 0, 0.0);
    height: 99%;
 }
 
@@ -862,6 +865,10 @@ border-radius: 50px;
   margin-left: 6px;
 }
 
+.icon-27yU2q,
+.circleIconButton-1QV--U {
+	border-radius: 50px;
+}
 
 
 background: linear-gradient(45deg, transparent 52%, rgba(243, 4, 136, 0.8) 100%);
@@ -2977,7 +2984,15 @@ border-radius: 50px;
 }
 /*Put your  New Things Here */
 
+.guilds-1SWlCJ {
+    position: relative;
+    width: 64px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
 /* Change Home Icon (uses base64 encoding) */
+
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
 	-webkit-mask: none;
 	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
