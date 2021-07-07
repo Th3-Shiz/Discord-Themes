@@ -1,4 +1,0 @@
-/* Removing Nitro Gift*/
-.button-38aScr[tabindex="3"]{
-  display: none;
-}
