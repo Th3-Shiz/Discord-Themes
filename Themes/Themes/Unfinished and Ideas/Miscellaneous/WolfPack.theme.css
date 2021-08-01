@@ -1,0 +1,216 @@
+/** 
+ * @name WolfPack
+ * @author Shiz
+ * @version 1.0
+ * @description WolfPack My First theme with NLFD99's help
+  * @source https://github.com/The-Shiz/Discord-Themes
+shiz.html
+*/
+
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
+}
+/* Background */
+.theme-dark{
+  --background-secondary:transparent;
+  --background-primary:transparent;
+  --background-tertiary:transparent;
+}
+
+.theme-dark .container-1r6BKw,.container-2lgZY8,.theme-dark .wrapper-1Rf91z, .theme-light .wrapper-1Rf91z,.channels-Ie2l6A,.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3,.theme-dark .members-1998pB,.theme-dark .messagesWrapper-3lZDfY,.container-PNkimc,.appMount-3lHmkl,.theme-dark .contentRegion-3nDuYy,.theme-dark .sidebarRegion-VFTUkN,.theme-dark .standardSidebarView-3F1I7i, .theme-dark .layers-3iHuyZ,.theme-dark .activityFeed-1C0EmJ,.theme-dark .gameLibrary-TTDw4Y,.theme-dark .applicationStore-1pNvnv,.theme-dark .container-3gCOGc{
+    background: transparent;
+  }
+  
+  body{
+    background:none !important;
+  }
+  
+  .withFrame-haYltI {
+    margin-top: 0;
+    height: 22px;
+    padding-top: 4px;
+  }
+  
+  /* Background  {Change the url} */
+  body>div:last-of-type{
+    background: url(https://i.imgur.com/d25UwBc.jpg) 50% 50%/contain no-repeat !important;
+  }
+  
+  /* Darkness {change the .5} */
+  .theme-dark .layer-3QrUeG,.withFrame-haYltI{
+    background: rgba(0, 0, 0, 0.582) !important;
+  }
+  /* Guilds area Thanks to NLFD for some help with folder icons*/
+  .wrapper-25eVIn .svg-1X37T1 .wrapper-1BJsBx .icon-27yU2q{
+    border: solid 2px;
+    border-radius: 4px;
+    width: 39px;
+    height: 39px;
+    margin-top: 0px;
+    justify-content: center;
+    padding: 0px;
+  }
+  .bd-guild .bd-selected {
+    box-shadow: 0 0 20px 0 rgba(247, 250, 248, 0.205);
+  }
+  .folderIconWrapper-226oVY{
+    background: url(https://i.imgur.com/spK3h65.jpg?1) 50% 50%/cover!important;
+  }
+  
+  .guildIcon-GuAC7C{
+    display: none;
+  }
+
+  
+  /* Chat area with some help from NLFD*/
+  .headerCozy-2N9HOL .username-_4ZSMR {
+    position: relative;
+    padding:2px 6px 3px 6px;
+  }
+
+   .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA{
+        border: solid rgb(7, 243, 78);
+        border-radius: 25px;
+       }
+       .messageCompact-kQa7ES, .headerCozy-2N9HOL {
+        background: rgba(209, 207, 209, 0.137);
+        border: 1px solid rgba(250, 249, 250, 0.397);
+        margin-right: 15px;
+        margin-left: 65px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 3px;
+    }
+
+    .theme-dark .headerCozyMeta-rdohGq::after {
+      content: '';
+      position: absolute;
+      left: -12px;
+      top: 7px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid rgba(202, 189, 202, 0.87)
+  }
+    .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+        right:85px; 
+  }
+  .theme-dark .timestampCozy-2hLAPV {
+      padding-left: 5px;
+  }
+  .theme-dark .headerCozyMeta-rdohGq {
+      position: relative;
+      right: 90px;
+  }
+  
+  .contentCozy-3XX413, .theme-dark .headerCozyMeta-rdohGq {
+      margin-left: 5px;
+  }
+
+
+/* Chat Box */ 
+.theme-dark .channelTextArea-rNsIhG{
+    width: 950px;
+    background: rgba(209, 207, 209, 0.301);
+    border: 3px solid rgba(248, 245, 248, 0.767);
+    padding: 1px;
+    border-radius: 805px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 85px;
+    left: 150px;
+}
+.flex-1O1GKY {
+  background: transparent !important
+}
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
+}
+/* User box */
+.theme-dark .container-3baos1, .theme-light .container-3baos1 {
+  background: 0%
+}
+/* Channels and sections */
+.name-IbjUBS {
+  color: rgb(253, 14, 181);
+  text-align: center;
+}
+.containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
+  border: 1px rgb(253, 249, 253) solid;
+  border-radius: 5px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 45px;
+  padding: 4px;
+  margin-bottom: 5px;
+  transition: all 200ms;
+}
+.content-3at_AU{
+  border-radius: 45px;
+  border: 1px solid #fff;
+  border-color: rgb(243, 248, 243);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+.content-3at_AU:hover{
+  border-radius: 45px;
+  border: 1px solid rgb(250, 246, 246);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+/* Memebers area*/
+.theme-dark .membersGroup-v9BXpm {
+  color: rgb(253, 14, 181);
+  border-radius: 45px;
+  border: 1px solid #fff;
+  border-color: rgb(243, 248, 243);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+  padding:08px;
+}
+.member-3W1lQa:hover {
+  background-color: rgb(253, 252, 252);
+  border: 1px solid #f3f0f094;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 30px;
+  height: 40px;
+}
+.member-3W1lQa {
+  background-color: rgba(252, 245, 245, 0.164);
+  border: 1px solid #dbdddc00;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 30px;
+  height: 38px;
+}
+[mask="url(#svg-mask-status-idle)"],
+[mask="url(#svg-mask-status-dnd)"],
+[mask="url(#svg-mask-status-offline)"],
+[mask="url(#svg-mask-status-streaming)"],
+[mask="url(#svg-mask-status-online)"],
+[mask="url(#svg-mask-status-online-mobile)"] {
+  mask: url(https://i.imgur.com/jPlcCVZ.jpg?1);
+}
+
+
+
+
+
+
+
+
+
+
+      /* Thanks to NFLD99 for helping me with My first Theme*/
+
+ 
