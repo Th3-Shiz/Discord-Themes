@@ -205,6 +205,45 @@
 	--Colour-197: rgba(93, 4, 120, 0.66);
 	--Colour-198: rgba(94, 46, 116, 0.66);
 }
+--Settings-Dock-Colour: var(--Main-Colour);
+  --BetterDocsBlockerWhite: var(--Main-Colour);
+  --BetterDocsBlockerBlack1: var(--Background-Colour);
+  --BetterDocsBlockerBlack2: var(--Secondary-Background-Colour);
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+
+
+  --SD-roundness: var(--Chat-Avatar-Border-Radius); /* Must be with px */
+  --green: #43b581;
+  --yellow: #faa61a;
+  --red: #f04747;
+  --purple: #593695;
+  --sourcecheck-official: var(--BetterDocsBlockerGreen, #43B581);
+  --sourcecheck-trusted: var(--BetterDocsBlockerGold, #FAA61A);
+  --sourcecheck-unsafe: var(--BetterDocsBlockerRed, #f04747);
+  --logo-primary: var(--Main-Colour);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+}
+
+.theme-dark{
+  --header-primary: var(--Main-Colour);
+  --header-secondary: var(--Secondary-Main-Colour);
+  --channels-default: var(--Secondary-Main-Colour);
+  --interactive-normal: var(--Secondary-Main-Colour);
+  --interactive-hover: var(--Main-Colour);
+  --interactive-active: var(--Main-Colour);
+  --text-normal: var(--Main-Colour);
+  --text-muted: var(--Secondary-Main-Colour);
+  --background-modifier-hover:transparent;
+  --interactive-hover: var(--Main-Colour);
+  --interactive-muted: var(--Secondary-Main-Colour);
+  --background-secondary:transparent;
+  --background-primary:transparent;
+  --background-tertiary:transparent;
+  --background-modifier-selected:transparent;
+  --interactive-active:var(--Main-Colour);
+  --background-modifier-active:transparent;
+}
+
 * {
 	font-family: Godofwar !important
 }
